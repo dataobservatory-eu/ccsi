@@ -22,7 +22,6 @@ image:
 
   # Show image only in page previews?
   preview_only: true
-
 ---
 <td style="text-align: center;">{{< figure src="/img/blogposts_2022/Eurostat_using_indicators_way_communicating_captioned.jpg" caption="We follow the Eurostat indicator design guidelines to make sure that our users – cultural ministries, representative organizations of music, large music organization and companies, researcher get the information that they need in usable and precise indicators." numbered="false" >}}</td>
 
