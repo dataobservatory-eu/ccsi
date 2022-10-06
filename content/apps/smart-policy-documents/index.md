@@ -40,7 +40,7 @@ url_slides: ""
 url_video: ""
 
 # Slides (optional).
-#   Otherwise, set `slides = ""`.
+#   Otherwise, set `slides: ""`.
 slides: ""
 ---
 

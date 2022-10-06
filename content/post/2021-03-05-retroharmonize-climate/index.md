@@ -80,7 +80,7 @@ To reproduce this blogpost, you will need `ZA5877_v2-0-0.sav`,
     eb_waves <- read_surveys(file.path(gesis_dir, climate_change_files), .f='read_spss')
 
     if (dir.exists("data-raw")) {
-      save ( eb_waves,  file = file.path("data-raw", "eb_climate_change_waves.rda") )
+      save ( eb_waves,  file: file.path("data-raw", "eb_climate_change_waves.rda") )
     }
 
     if ( file.exists( file.path("data-raw", "eb_climate_change_waves.rda") )) {
@@ -127,7 +127,7 @@ multiple countries.)
     eb_protocol_metadata <- eb_climate_metadata %>%
       filter ( .data$label_orig %in% c("date of interview") |
                  .data$var_name_orig == "rowid")  %>%
-      suggest_var_names( survey_program = "eurobarometer" )
+      suggest_var_names( survey_program: "eurobarometer" )
 
     # subset and harmonize these variables in all nested list items of 'waves' of surveys
     interview_dates <- harmonize_var_names(eb_waves, 
@@ -135,7 +135,7 @@ multiple countries.)
 
     # apply similar data processing rules to same variables
     interview_dates <- lapply (interview_dates, 
-                          function (x) x %>% mutate ( date_of_interview = as_character(.data$date_of_interview) )
+                          function (x) x %>% mutate ( date_of_interview: as_character(.data$date_of_interview) )
                           )
 
     # join the individual survey tables into a single table 
@@ -174,7 +174,7 @@ become a Date type `2018-10-31`.
     }
 
     interview_dates <- interview_dates %>%
-      mutate ( date_of_interview = harmonize_date(.data$date_of_interview) )
+      mutate ( date_of_interview: harmonize_date(.data$date_of_interview) )
 
     vapply(interview_dates, function(x) class(x)[1], character(1))
 
@@ -210,8 +210,8 @@ carefully reading the original questionnaires and codebooks.
 
     eb_regional_metadata <- eb_climate_metadata %>%
       filter ( grepl( "rowid|isocntry|^nuts$", .data$var_name_orig)) %>%
-      suggest_var_names( survey_program = "eurobarometer" ) %>%
-      mutate ( var_name_suggested = case_when ( 
+      suggest_var_names( survey_program: "eurobarometer" ) %>%
+      mutate ( var_name_suggested: case_when ( 
         var_name_suggested == "region_nuts_codes"     ~ "geo",
         TRUE ~ var_name_suggested ))
 
@@ -244,8 +244,8 @@ The original values are the region’s codes, and the labels are the
 names. The easiest and fastest solution is the base R `lapply` loop.
 
     geography <- lapply ( geography, 
-                          function (x) x %>% mutate ( region = as_character(geo), 
-                                                      geo    = as.character(geo) )  
+                          function (x) x %>% mutate ( region: as_character(geo), 
+                                                      geo   : as.character(geo) )  
     )
 
 Because each table has exactly the same columns, we can simply use
@@ -292,13 +292,13 @@ post-stratification weight is the `w1` variable, but this is not
 necessarily what you need to use.
 
 The `suggest_var_names()` function has a parameter for
-`survey_program = "eurobaromater"` which normalizes a bit the most used
+`survey_program: "eurobaromater"` which normalizes a bit the most used
 variables. For example, all variations of wex, wextra wil be noramlized
 to wex. You can ignore this parameter and use your own names, too.
 
     eb_demography_metadata  <- eb_climate_metadata %>%
       filter ( grepl( "rowid|isocntry|^d8$|^d7$|^wex|^w1$|d25|^d15a|^d11$", .data$var_name_orig) ) %>%
-      suggest_var_names( survey_program = "eurobarometer")
+      suggest_var_names( survey_program: "eurobarometer")
 
 As you can see, using the original labels would not help, because they
 also contain various alterations.
@@ -320,8 +320,8 @@ also contain various alterations.
     ## 4                wex
     ## 5                wex
 
-    demography <- harmonize_var_names ( waves = eb_waves, 
-                                        metadata = eb_demography_metadata ) 
+    demography <- harmonize_var_names ( waves: eb_waves, 
+                                        metadata: eb_demography_metadata ) 
 
 Socio-demographic variables like level of highest education or
 occupation are rather country-specific. Eurobarometer uses standardized
@@ -386,7 +386,7 @@ The seamingly trival `age_exact` variable has its own issues, too:
 
 Let’s see all the strange labels attached to `age`-type variables:
 
-    collect_val_labels(metadata = eb_demography_metadata %>%
+    collect_val_labels(metadata: eb_demography_metadata %>%
                          filter ( var_name_suggested %in% c("age_exact", "age_education")) )
 
     ##  [1] "2 years"                  "75 years"                
@@ -409,17 +409,17 @@ purpose:
       x %>% mutate ( across ( -any_of(c("rowid", "w1", "wex")), as_character) ) %>%
         mutate ( across (any_of(c("w1", "wex")), as_numeric) ) %>%
         mutate ( across (contains("age"), remove_years)) %>%
-        mutate ( age_exact = as.numeric (age_exact)) %>%
-        mutate ( is_student = ifelse ( tolower(age_education) == "still studying", 
+        mutate ( age_exact: as.numeric (age_exact)) %>%
+        mutate ( is_student: ifelse ( tolower(age_education) == "still studying", 
                                        1, 0), 
-                 no_education = ifelse ( tolower(age_education) == "no full-time education", 1, 0)) %>%
-        mutate ( education = case_when (
+                 no_education: ifelse ( tolower(age_education) == "no full-time education", 1, 0)) %>%
+        mutate ( education: case_when (
           grepl("studying", age_education) ~ age_exact, 
           grepl ("education", age_education)  ~ 14, 
           grepl ("refus|document|dk", tolower(age_education)) ~ NA_real_,
           TRUE ~ as.numeric(age_education)
         ))  %>%
-        mutate ( education = case_when ( 
+        mutate ( education: case_when ( 
           education < 14 ~ NA_real_, 
           education > 30 ~ 30, 
           TRUE ~ education )) 
@@ -427,25 +427,25 @@ purpose:
 
     demography <- lapply ( demography, process_demography )
 
-    ## Warning in eval_tidy(pair$rhs, env = default_env): NAs introduced by coercion
+    ## Warning in eval_tidy(pair$rhs, env: default_env): NAs introduced by coercion
 
     ## Warning in mask$eval_all_mutate(quo): NAs introduced by coercion
 
-    ## Warning in eval_tidy(pair$rhs, env = default_env): NAs introduced by coercion
+    ## Warning in eval_tidy(pair$rhs, env: default_env): NAs introduced by coercion
 
-    ## Warning in eval_tidy(pair$rhs, env = default_env): NAs introduced by coercion
+    ## Warning in eval_tidy(pair$rhs, env: default_env): NAs introduced by coercion
 
-    ## Warning in eval_tidy(pair$rhs, env = default_env): NAs introduced by coercion
+    ## Warning in eval_tidy(pair$rhs, env: default_env): NAs introduced by coercion
 
-    ## Warning in eval_tidy(pair$rhs, env = default_env): NAs introduced by coercion
+    ## Warning in eval_tidy(pair$rhs, env: default_env): NAs introduced by coercion
 
     ## WE'll full join and not use rbind, because we have different variables in different waves.
     demography <- Reduce ( full_join, demography )
 
-    ## Joining, by = c("rowid", "isocntry", "w1", "wex", "marital_status", "age_education", "age_exact", "occupation_of_respondent", "occupation_of_respondent_recoded", "respondent_occupation_scale_c_14", "type_of_community", "is_student", "no_education", "education")
-    ## Joining, by = c("rowid", "isocntry", "w1", "wex", "marital_status", "age_education", "age_exact", "occupation_of_respondent", "occupation_of_respondent_recoded", "respondent_occupation_scale_c_14", "type_of_community", "is_student", "no_education", "education")
-    ## Joining, by = c("rowid", "isocntry", "w1", "wex", "marital_status", "age_education", "age_exact", "occupation_of_respondent", "occupation_of_respondent_recoded", "respondent_occupation_scale_c_14", "type_of_community", "is_student", "no_education", "education")
-    ## Joining, by = c("rowid", "isocntry", "w1", "wex", "marital_status", "age_education", "age_exact", "occupation_of_respondent", "occupation_of_respondent_recoded", "respondent_occupation_scale_c_14", "type_of_community", "is_student", "no_education", "education")
+    ## Joining, by: c("rowid", "isocntry", "w1", "wex", "marital_status", "age_education", "age_exact", "occupation_of_respondent", "occupation_of_respondent_recoded", "respondent_occupation_scale_c_14", "type_of_community", "is_student", "no_education", "education")
+    ## Joining, by: c("rowid", "isocntry", "w1", "wex", "marital_status", "age_education", "age_exact", "occupation_of_respondent", "occupation_of_respondent_recoded", "respondent_occupation_scale_c_14", "type_of_community", "is_student", "no_education", "education")
+    ## Joining, by: c("rowid", "isocntry", "w1", "wex", "marital_status", "age_education", "age_exact", "occupation_of_respondent", "occupation_of_respondent_recoded", "respondent_occupation_scale_c_14", "type_of_community", "is_student", "no_education", "education")
+    ## Joining, by: c("rowid", "isocntry", "w1", "wex", "marital_status", "age_education", "age_exact", "occupation_of_respondent", "occupation_of_respondent_recoded", "respondent_occupation_scale_c_14", "type_of_community", "is_student", "no_education", "education")
 
 Now let’s see what we have here:
 
@@ -482,14 +482,14 @@ to our data summary again
 [here](http://netzero.dataobservatory.eu/post/2021-03-04-eurobarometer_data/).)
 
     climate_awareness_metadata <- eb_climate_metadata %>%
-      suggest_var_names( survey_program = "eurobarometer" ) %>%
+      suggest_var_names( survey_program: "eurobarometer" ) %>%
       filter ( .data$var_name_suggested  %in% c("rowid",
                                                 "serious_world_problems_first", 
                                                  "serious_world_problems_climate_change")
       ) 
 
-    hw <- harmonize_var_names ( waves = eb_waves, 
-                                metadata = climate_awareness_metadata )
+    hw <- harmonize_var_names ( waves: eb_waves, 
+                                metadata: climate_awareness_metadata )
 
 The `retroharmoinze` package comes with a generic
 [harmonize\_values()](https://retroharmonize.dataobservatory.eu/reference/harmonize_waves.html)
@@ -537,7 +537,7 @@ example, because the Turkish Cypriot community received a different
 questionnaire.\]
 
     # positive cases
-    label_1 = c("^Climate\\schange", "^Mentioned")
+    label_1: c("^Climate\\schange", "^Mentioned")
     # missing cases 
     na_labels <- collect_na_labels( climate_awareness_metadata)
     na_labels
@@ -567,21 +567,21 @@ on its own.
 
     harmonize_serious_problems <- function(x) {
       label_list <- list(
-        from = c(label_0, label_1, na_labels), 
-        to = c( rep ( "not_mentioned", length(label_0) ),   # use the same order as in from!
+        from: c(label_0, label_1, na_labels), 
+        to: c( rep ( "not_mentioned", length(label_0) ),   # use the same order as in from!
                 rep ( "mentioned", length(label_1) ),
                 "do_not_know", "inap", "inap", "inap"), 
-        numeric_values = c(rep ( 0, length(label_0) ), # use the same order as in from!
+        numeric_values: c(rep ( 0, length(label_0) ), # use the same order as in from!
                            rep ( 1, length(label_1) ),
                            99997,99999,99999,99999)
       )
       
       harmonize_values(x, 
-                       harmonize_labels = label_list, 
-                       na_values = c("do_not_know"=99997,
+                       harmonize_labels: label_list, 
+                       na_values: c("do_not_know"=99997,
                                      "declined"=99998,
                                      "inap"=99999), 
-                       remove = "\\(|\\)|\\[|\\]|\\%"
+                       remove: "\\(|\\)|\\[|\\]|\\%"
       )
     }
 
@@ -656,13 +656,13 @@ Now we just need to join the partial table by the `rowid` together:
 
     #start from the smallest (we removed the survey that had no relevant questionnaire item)
     panel <- hw %>%
-      left_join ( geography, by = 'rowid' ) 
+      left_join ( geography, by: 'rowid' ) 
 
     panel <- panel %>%
-      left_join ( demography, by = c("rowid", "isocntry") ) 
+      left_join ( demography, by: c("rowid", "isocntry") ) 
 
     panel <- panel %>%
-      left_join ( interview_dates, by = 'rowid' )
+      left_join ( interview_dates, by: 'rowid' )
 
 And let’s see a small sample:
 
@@ -690,10 +690,10 @@ And let’s see a small sample:
     ## #   is_student <dbl>, no_education <dbl>, education <dbl>,
     ## #   date_of_interview <date>
 
-    saveRDS ( panel, file.path(tempdir(), "climate_panel.rds"), version = 2)
+    saveRDS ( panel, file.path(tempdir(), "climate_panel.rds"), version: 2)
 
     # not evaluated
-    saveRDS( panel, file = file.path("data-raw", "climate-panel.rds"), version=2)
+    saveRDS( panel, file: file.path("data-raw", "climate-panel.rds"), version=2)
 
 ## Putting It on a Map
 

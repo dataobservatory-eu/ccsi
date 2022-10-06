@@ -24,7 +24,7 @@ location: "Online"
 # Is this a selected talk? (true/false)
 selected: true
 # Tags (optional).
-tags: ["open-data", "sustainability"]
+tags: ["open data", "sustainability"]
 
 # Slides (optional).
 #   Associate this talk with Markdown slides.

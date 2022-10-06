@@ -1,31 +1,31 @@
-+++
-title = "Join Copernicus Climate Data Store Data with Socio-Economic and Opinion Poll Data"
-subtitle = "Part I: Get the data and aggregate it over Europe's NUTS statistical regions"
-date = 2021-06-06T10:00:00
-lastmod = 2021-06-06T10:00:00
-draft = false
+---
+title: "Join Copernicus Climate Data Store Data with Socio-Economic and Opinion Poll Data"
+subtitle: "Part I: Get the data and aggregate it over Europe's NUTS statistical regions"
+date: 2021-06-06T10:00:00
+lastmod: 2021-06-06T10:00:00
+draft: false
 
-authors = ["daniel_antal"]
+authors: ["daniel_antal"]
 
-tags = ["open-data", "open-science", "reproducible research", "open government", "tutorials", "rbloggers", "Copernicus", "biosphere", "vegetation", "LAI"]
+tags: ["open data", "open science", "reproducible research", "open government", "tutorials", "rbloggers", "Copernicus", "biosphere", "vegetation", "LAI"]
 
-summary = "In this series of blogposts we will show how to collect environmental data from the EU’s Copernicus Climate Data Store, and bring it to a data format that you can join with Eurostat’s socio-economic and environmental data."
+summary: "In this series of blogposts we will show how to collect environmental data from the EU’s Copernicus Climate Data Store, and bring it to a data format that you can join with Eurostat’s socio-economic and environmental data."
 
-projects = ["eu-datathon_2021"]
+projects: ""
 
 # Featured image
-[image]
+image:
   # Caption (optional)
-  caption = "Leaf Area Index, high vegetation half, NUTS2 regional avareage values"
+  caption: "Leaf Area Index, high vegetation half, NUTS2 regional avareage values"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Center"
+  focal_point: "Center"
 
   # Show image only in page previews?
-  preview_only = true
+  preview_only: true
 
-+++
+---
 
 In this series of blogposts we will show how to collect environmental
 data from the EU’s [Copernicus Climate Data
@@ -89,34 +89,34 @@ conditions](https://cds.climate.copernicus.eu/disclaimer-privacy).
 
 
 
-    wf_set_key(user = "12345", 
-               key = "00000000-aaaa-b1b1-0000-a1a1a1a1a1a1", 
-               service = "cds")
+    wf_set_key(user: "12345", 
+               key: "00000000-aaaa-b1b1-0000-a1a1a1a1a1a1", 
+               service: "cds")
 
 You can check if you were successful with:
 
-    ecmwfr::wf_get_key(user = "12345", service = "cds")
+    ecmwfr::wf_get_key(user: "12345", service: "cds")
 
 ## Get the Data
 
 Let us formulate our first request:
 
     request_lai_hv_2019_06 <- list(
-      "dataset_short_name" = "reanalysis-era5-land-monthly-means",
-      "product_type"   = "monthly_averaged_reanalysis",
-      "variable"       = "leaf_area_index_high_vegetation",
-      "year"           = "2019",
-      "month"          =  "06",
-      "time"           = "00:00",
-      "area"           = "70/-20/30/60",
-      "format"         = "netcdf",
-      "target"         = "demo_file.nc")
+      "dataset_short_name": "reanalysis-era5-land-monthly-means",
+      "product_type"  : "monthly_averaged_reanalysis",
+      "variable"      : "leaf_area_index_high_vegetation",
+      "year"          : "2019",
+      "month"         :  "06",
+      "time"          : "00:00",
+      "area"          : "70/-20/30/60",
+      "format"        : "netcdf",
+      "target"        : "demo_file.nc")
 
-    lai_hv_2019_06.nc  <- wf_request(user = "<your_ID>",
-                         request = request_lai_hv_2019_06 ,
-                         transfer = TRUE,
-                         path = "data-raw",
-                         verbose = FALSE)
+    lai_hv_2019_06.nc  <- wf_request(user: "<your_ID>",
+                         request: request_lai_hv_2019_06 ,
+                         transfer: TRUE,
+                         path: "data-raw",
+                         verbose: FALSE)
 
 ## Effective Leaf Area Index
 
@@ -173,7 +173,7 @@ you later need it.
 
     ## sf at resolution 1:60 read from local file
 
-    ## Warning in eurostat::get_eurostat_geospatial(resolution = "60", nuts_level =
+    ## Warning in eurostat::get_eurostat_geospatial(resolution: "60", nuts_level =
     ## "2", : Default of 'make_valid' for 'output_class="sf"' will be changed in the
     ## future (see function details).
 
@@ -193,7 +193,7 @@ example, Zuid-Holland or South Holland in the Netherlands, or Saarland
 in Germany, or not. Then it averages with the `mean()` function those
 measurements falling in the area.
 
-    LAI_nuts_2 = sp::over(sp::geometry(
+    LAI_nuts_2: sp::over(sp::geometry(
       as(map_nuts_2, 'Spatial')), 
       LAI_df,
       fn=mean)
@@ -232,10 +232,10 @@ We’ll plot the map with [ggplot2](https://ggplot2.tidyverse.org/).
     ggplot(data=LAI_sfdf) + 
       geom_sf(aes(fill=lai),
               color="dim grey", size=.1) + 
-      scale_fill_gradient( low ="#FAE000", high = "#00843A") +
-      guides(fill = guide_legend(reverse=T, title = "LAI")) +
+      scale_fill_gradient( low ="#FAE000", high: "#00843A") +
+      guides(fill: guide_legend(reverse=T, title: "LAI")) +
       labs(title="Leaf Area Index",
-           subtitle = "High vegetation half, NUTS2 regional avareage values",
+           subtitle: "High vegetation half, NUTS2 regional avareage values",
            caption="\ua9 EuroGeographics for the administrative boundaries 
                     \ua9 Copernicus Data Service, June 2019 average values
                     Tutorial and ready-to-use data on greendeal.dataobservatory.eu") +

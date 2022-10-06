@@ -76,23 +76,23 @@ intra-country regional biases in the sample.\]
     panel <- readRDS((file.path(data_raw_dir, "climate-panel.rds")))
 
     climate_data <-  panel %>%
-      mutate ( year = lubridate::year(date_of_interview)) %>%
+      mutate ( year: lubridate::year(date_of_interview)) %>%
       select ( all_of(c("isocntry", "geo", "w1")), 
                contains("problem")
       )  %>%
       mutate ( 
         # use the post-stratification weights for national samples
-        serious_world_problems_first = w1*serious_world_problems_first , 
-        serious_world_problems_climate_change = w1*serious_world_problems_climate_change) %>%
+        serious_world_problems_first: w1*serious_world_problems_first , 
+        serious_world_problems_climate_change: w1*serious_world_problems_climate_change) %>%
       group_by (  .data$geo ) %>%
-      summarise( serious_world_problems_first = mean(serious_world_problems_first, na.rm=TRUE),
-                 serious_world_problems_climate_change = mean (serious_world_problems_climate_change, na.rm=TRUE),
-                 mean_w1 = mean(w1)
+      summarise( serious_world_problems_first: mean(serious_world_problems_first, na.rm=TRUE),
+                 serious_world_problems_climate_change: mean (serious_world_problems_climate_change, na.rm=TRUE),
+                 mean_w1: mean(w1)
                  ) %>%
       mutate ( 
         # adjust for post-stratification weight bias due to regional over/undersampling
-        climate_first = serious_world_problems_first / mean_w1, 
-        climate_mentioned = serious_world_problems_climate_change / mean_w1
+        climate_first: serious_world_problems_first / mean_w1, 
+        climate_mentioned: serious_world_problems_climate_change / mean_w1
         ) 
 
 So, we averaged, weighted and adjusted the mentioning of climate change
@@ -147,28 +147,28 @@ extent carry out recoding, imputation or simple aggregation.
 <!-- -->
 
     regional_coding_2016 <- panel %>%
-      mutate ( year = lubridate::year(date_of_interview)) %>%
+      mutate ( year: lubridate::year(date_of_interview)) %>%
       select (  all_of(c("isocntry", "geo", "region", "year") ) ) %>%
       distinct_all() %>%
       recode_nuts()
 
     regional_coding_2013 <- panel %>%
-      mutate ( year = lubridate::year(date_of_interview)) %>%
+      mutate ( year: lubridate::year(date_of_interview)) %>%
       select (  all_of(c("isocntry", "geo", "region", "year") ) ) %>%
       distinct_all() %>%
-      recode_nuts( nuts_year = 2013)
+      recode_nuts( nuts_year: 2013)
 
     climate_data_recoded <- climate_data %>% 
-      left_join ( regional_coding_2016, by = 'geo' ) %>%
+      left_join ( regional_coding_2016, by: 'geo' ) %>%
       left_join ( regional_coding_2013 %>% 
                     select ( all_of(c("geo", "code_2013"))), 
-                  by = "geo") %>%
+                  by: "geo") %>%
       distinct_all()
 
-    saveRDS ( climate_data_recoded , file.path(tempdir(), "climate_panel_recoded_agr.rds"), version = 2)
+    saveRDS ( climate_data_recoded , file.path(tempdir(), "climate_panel_recoded_agr.rds"), version: 2)
 
     # not evaluated
-    saveRDS( climate_data_recoded , file = file.path("data-raw", "climate_panel_recoded_agr.rds"))
+    saveRDS( climate_data_recoded , file: file.path("data-raw", "climate_panel_recoded_agr.rds"))
 
 
 ![](https://netzero.dataobservatory.eu/media/gif/eu_climate_change.gif)

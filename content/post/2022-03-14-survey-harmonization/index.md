@@ -1,29 +1,29 @@
-+++
-title = "What is Survey Harmonization?"
-subtitle = "Create more useable, cheaper, and better-quality questionnaire-based research"
-date = 2022-03-14T13:00:00+01:00
-lastmod = 2022-03-14T13:00:00+01:00
-draft = false
+---
+title: "What is Survey Harmonization?"
+subtitle: "Create more useable, cheaper, and better-quality questionnaire-based research"
+date: 2022-03-14T13:00:00+01:00
+lastmod: 2022-03-14T13:00:00+01:00
+draft: false
 
-authors = ["daniel_antal"]
+authors: ["daniel_antal"]
 
-tags = [ "CCSI Data Observatory", "Survey harmonization", "Cultural Access and Participation", "Data integration"]
+tags: [ "CCSI Data Observatory", "Survey harmonization", "Cultural Access and Participation", "Data integration"]
 
-summary = "Survey harmonization is a powerful research tool to increase the usability of questionnaire-based empirical research.  When the same questions are asked from similarly selected German and French people, music audiences and musicians, then we can make meaningful comparisons between the public opinions of the two countries, or the different perceptions of fans and makers of music."
+summary: "Survey harmonization is a powerful research tool to increase the usability of questionnaire-based empirical research.  When the same questions are asked from similarly selected German and French people, music audiences and musicians, then we can make meaningful comparisons between the public opinions of the two countries, or the different perceptions of fans and makers of music."
 
 # Featured image
-[image]
+image:
   # Caption (optional)
-  caption = ""
+  caption: ""
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Center"
+  focal_point: "Center"
 
   # Show image only in page previews?
-  preview_only = true
+  preview_only: true
 
-+++
+---
 <td style="text-align: center;">{{< figure src="/media/img/blogposts_2021/difficulty_bills_levels.jpg" caption="In our  [Central & Eastern European Music Industry Report 2020](https://music.dataobservatory.eu/publication/ceereport_2020/) as a case-study on [evidence-based policymaking](https://music.dataobservatory.eu/post/2020-01-30-ceereport/) we compared how musicians and their audiences live in several countries." numbered="false" >}}</td>
 
 Survey harmonization is a powerful research tool to increase the usability of questionnaire-based empirical research.  When the same questions are asked from similarly selected German and French people, music audiences and musicians, then we can make meaningful comparisons between the public opinions of the two countries, or the different perceptions of fans and makers of music.  And if we repeat this procedure time after time, we can see if opinion is shifting more in Germany or France, or the living conditions of musicians are catching up with the rest of the country population.

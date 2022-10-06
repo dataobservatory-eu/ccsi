@@ -1,50 +1,50 @@
-+++
+---
 # Project title.
-title = "Horizon Europe Consortium"
-subtitle = "We are looking for end-users and dissemination partners to test our data and visualization products" 
+title: "Horizon Europe Consortium"
+subtitle: "We are looking for end-users and dissemination partners to test our data and visualization products" 
 
 # Date this page was created.
-date = 2021-10-14T10:00:00
-lastmod = 2021-05-06T18:52:00
+date: 2021-10-14T10:00:00
+lastmod: 2021-05-06T18:52:00
 
 # Project summary to display on homepage.
-summary = "OpenMusE brings together music industry stakeholders and researchers from 12 European countries. Our partners represent the diversity of the industry, as well as the shared need to find financially, socially, and environmentally sustainable policy and business models in multiple, sometimes-fragmented streams (e.g., live music, composers/publishers, and recordings with producers and performers)"
+summary: "OpenMusE brings together music industry stakeholders and researchers from 12 European countries. Our partners represent the diversity of the industry, as well as the shared need to find financially, socially, and environmentally sustainable policy and business models in multiple, sometimes-fragmented streams (e.g., live music, composers/publishers, and recordings with producers and performers)"
 
 # Tags: can be used for filtering projects.
-tags = ["Digital Music Observatory", "Music Moves Europe", "Horizon Europe"]
+tags: ["Digital Music Observatory", "Music Moves Europe", "Horizon Europe"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = ""
+external_link: ""
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references 
+#   E.g. `slides: "example-slides"` references 
 #   `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides = ""
+#   Otherwise, set `slides: ""`.
+slides: ""
 
 # Links (optional).
-url_pdf = "https://reprex.nl/documnets/DMO_Horizon_Europe_Invitation_2022_03_20.pdf"
-url_slides = ""
-url_video = ""
-url_code = ""
+url_pdf: "https://reprex.nl/documnets/DMO_Horizon_Europe_Invitation_2022_03_20.pdf"
+url_slides: ""
+url_video: ""
+url_code: ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-#url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/antaldaniel"}]
+#url_custom: [{icon_pack: "fab", icon="twitter", name="Follow", url: "https://twitter.com/antaldaniel"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
-[image]
+image:
   # Caption (optional)
-  caption = ""
+  caption: ""
   
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Center"
-  preview_only = true
-+++
+  focal_point: "Center"
+  preview_only: true
+---
 
 <td style="text-align: center;">{{< figure src="/img/blogposts_2022/logos_3_1.jpg" caption="" numbered="false" >}}</td>
 
