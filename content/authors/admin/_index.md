@@ -61,7 +61,7 @@ highlight_name: false
 
 The `creative and cultural sectors and industries` are mainly made of networks of freelancers and microenterprises, with very few medium-sized companies.  Their economic performance, problems, and innovation capacities are hidden. Our open collaboration to create this data observatory is committed to change this. Relying on modern data science, the re-use of open governmental data, open science data, and novel harmonized data collection we aim to fill in the gaps left in the official statistics of the European Union.
 
-{{< icon name="download" pack="fas" >}} Download our {{< staticref "documents/CCSI_Data_Observatory_short_intro.pdf" "newtab" >}}short introduction{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download our {{< staticref "documents/Reprex-CCSI-2022.pdf" "newtab" >}}short introduction{{< /staticref >}}.
 
 We believe that introducing `Open Policy Analysis` standards with open data, open-source software and research automation can help better understanding how 
 creative people and their enterprises and institutions add value to the European economy, how they create jobs, innovate, and increase the well-being of a diverse European society. Our [collaboration is open](/#contributors) for individuals, citizens scientists. Institutions can join as partners to the Consortium that maintains our observatory.
