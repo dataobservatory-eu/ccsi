@@ -40,12 +40,8 @@ url_code: ""
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
 image:
-  # Caption (optional)
-  caption: ""
-  
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point: "Center"
+  caption: "Photo: [Brad Neathery](https://unsplash.com/photos/mGH253KbfaY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)"
+  focal_point: "Smart"
 ---
 
 In the case of `Pillar 1 – Music & Economy`, we are usually able to
