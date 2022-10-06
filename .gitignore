@@ -41,3 +41,4 @@ vignettes/*.pdf
 # Finished website
 ^public/
 ^public
+public/
