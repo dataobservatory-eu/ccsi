@@ -32,7 +32,7 @@ We work using the agile open collaboration method that allows music organization
 
 Our quality assurance program is sometimes the same as in national statistical offices, and sometimes it is different.  We use only open-source statistical software, and we follow the [Open Policy Analysis Guidelines](/pillars/opa/) for full transparency in our data handling.  We send both our software code and our results to scientific peer review, which is often more rigorous than other internal quality controls.  We use so-called computerized *unit-tests*, often almost 100 of them, that search for signs of any data corruption.
 
-<td style="text-align: center;">{{< figure src="/media/img/blogposts_2021/jack-sloop-eYwn81sPkJ8-unsplash.jpg" caption="See our previous blogpost: [How We Add Value to Public Data With Imputation and Forecasting?](https://music.dataobservatory.eu/post/2021-11-06-indicator_value_added/) with an example on radio market data." numbered="false" >}}</td>
+<td style="text-align: center;">{{< figure src="/img/blogposts_2021/jack-sloop-eYwn81sPkJ8-unsplash.jpg" caption="See our previous blogpost: [How We Add Value to Public Data With Imputation and Forecasting?](https://music.dataobservatory.eu/post/2021-11-06-indicator_value_added/) with an example on radio market data." numbered="false" >}}</td>
 
 -	[x]  We involve business, policy and academic users in the entire cycle of indicator design to make sure that they receive the information they need in their decision making process or resaerch, and that the information is correct and well documented.
 

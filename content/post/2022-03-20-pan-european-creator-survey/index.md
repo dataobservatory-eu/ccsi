@@ -25,7 +25,7 @@ image:
 
 ---
 
-<td style="text-align: center;">{{< figure src="/media/img/blogposts_2022/CCSID_reCreating_Survey_16x9.png"  caption="If you are a creator yourself, please, [fill out](https://uva.fra1.qualtrics.com/jfe/form/SV_23KHcb7E2xqQFNQ) the survey of 2022 in any EU language. If you represent an artist organization, please, make sure that the survey finds its way to your newsletter and [get in touch](https://reprex.nl/#/contact) with us to get the results---and any further data you need for your work." numbered="false" >}}</td>
+<td style="text-align: center;">{{< figure src="/img/blogposts_2022/CCSID_reCreating_Survey_16x9.png"  caption="If you are a creator yourself, please, [fill out](https://uva.fra1.qualtrics.com/jfe/form/SV_23KHcb7E2xqQFNQ) the survey of 2022 in any EU language. If you represent an artist organization, please, make sure that the survey finds its way to your newsletter and [get in touch](https://reprex.nl/#/contact) with us to get the results---and any further data you need for your work." numbered="false" >}}</td>
 
 
 The Cultural Creative Sectors Industries [CCSI Data Observatory](https://ccsi.dataobservatory.eu/) has grew out of the [Digital Music Observatory](https://music.dataobservatory.eu/), which had harmonized and collected surveys in all European countries about how musicians work and earn their living, and how audiences differ in various countries, metropolitan regions in terms of typical age, visiting probability, spending capacity, and other important factors. We helped music organizations to significantly increase the royalty pay-outs of artists in two countries, and we contributed for the advocacy of fairer compensation and fairer taxation in others. 
@@ -61,7 +61,7 @@ We would like to ask you to ask your members to do the same above, in your newsl
 ## Bloggers
 We would be very happy if you would write about this survey or invite creators to participate in our research. We can give you infographics, data visualizations prior to academic publication to write about the results.
 
-<td style="text-align: center;">{{< figure src="/media/img/blogposts_2021/difficulty_bills_levels.jpg" caption="In our  [Central & Eastern European Music Industry Report 2020](https://music.dataobservatory.eu/publication/ceereport_2020/) as a case-study on [evidence-based policymaking](https://music.dataobservatory.eu/post/2020-01-30-ceereport/) we compared how musicians and their audiences live in several countries." numbered="false" >}}</td>
+<td style="text-align: center;">{{< figure src="/img/blogposts_2021/difficulty_bills_levels.jpg" caption="In our  [Central & Eastern European Music Industry Report 2020](https://music.dataobservatory.eu/publication/ceereport_2020/) as a case-study on [evidence-based policymaking](https://music.dataobservatory.eu/post/2020-01-30-ceereport/) we compared how musicians and their audiences live in several countries." numbered="false" >}}</td>
 
 ## Our research principles
 We believe in transparency, openness, and high-quality work.  We carry out an open collaboration with representatives of music professionals, NGOs, and universities. Because in the European music ecosystem, most professional and artists are freelancers or micro-entrepreneurs, we also try to form collaborations with individuals. All our data is open, interoperable, reusable data that comes with the highest quality of documentation and help for reuse. 
@@ -75,5 +75,5 @@ We would appreciate it immensely if you would support this important research by
 
 The *Digital Music Observatory* and its predecessor, [CEEMID](https://reprex.nl/project/ceemid/), has been working with harmonized surveys for 8 years.  We have compiled the biggest database of interview transcripts with concert audiences (more than 70,000 interviews in all European countries, soon to be extended to more than 100k) and the world's biggest harmonized survey dataset about music creators (4000 responses from 12 European countries.) We use the Open Data Directive, originally for government-funded research data, recently extended to taxpayer funded scientific research, to access datasets that are invisible for the music industry.
 
-<td style="text-align: center;">{{< figure src="/media/img/blogposts_2021/CAP_with_Wales_concerts.jpg" caption="We using survey harmonization and data integration techniques to join hundreds of questionnaire-based research in Europe on music audiences. We are now improving our capacities to bring analysis to sub-national level, like in the example of Wales." numbered="false" >}}</td>
+<td style="text-align: center;">{{< figure src="/img/blogposts_2021/CAP_with_Wales_concerts.jpg" caption="We using survey harmonization and data integration techniques to join hundreds of questionnaire-based research in Europe on music audiences. We are now improving our capacities to bring analysis to sub-national level, like in the example of Wales." numbered="false" >}}</td>
 

@@ -24,7 +24,7 @@ image:
   preview_only: true
 
 ---
-<td style="text-align: center;">{{< figure src="/media/img/blogposts_2022/statcodelists_website.png" caption="Visit the documentation website of statcodelists on [statcodelists.dataobservatory.eu/](https://statcodelists.dataobservatory.eu/)." numbered="false" >}}</td>
+<td style="text-align: center;">{{< figure src="/img/blogposts_2022/statcodelists_website.png" caption="Visit the documentation website of statcodelists on [statcodelists.dataobservatory.eu/](https://statcodelists.dataobservatory.eu/)." numbered="false" >}}</td>
 
 <!-- badges: start -->
 [![dataobservatory](https://img.shields.io/badge/ecosystem-dataobservatory.eu-3EA135.svg)](https://dataobservatory.eu/)

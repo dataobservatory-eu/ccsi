@@ -69,7 +69,7 @@ service, and research as a servcie, and you are more than welcome to
 join our effort as a developer, a data curator, or as an occasional
 contributor to open government packages.
 
-{{< figure src="/media/img/partners/rOpenGov-intro.png" caption="" numbered="true" >}}
+{{< figure src="/img/partners/rOpenGov-intro.png" caption="" numbered="true" >}}
 
 ## Register to the Copernicus Climate Data Store
 
@@ -85,7 +85,7 @@ services](https://cds.climate.copernicus.eu/user/91923/edit) after
 accepting the [Terms and
 conditions](https://cds.climate.copernicus.eu/disclaimer-privacy).
 
-{{< figure src="/media/img/tutorials/register_to_cds.png" caption="" numbered="false" >}}
+{{< figure src="/img/tutorials/register_to_cds.png" caption="" numbered="false" >}}
 
 
 
@@ -180,7 +180,7 @@ you later need it.
     plot(map_nuts_2)
 
 
-{{< figure src="/media/img/tutorials/cds_tutorial_plot_1.png" caption="" numbered="false" >}}
+{{< figure src="/img/tutorials/cds_tutorial_plot_1.png" caption="" numbered="false" >}}
 
 Our measurement of the average Effective Leaf Area Index is a raster
 data, it is given for many points of Europe’s map. What we need to do is
@@ -242,7 +242,7 @@ We’ll plot the map with [ggplot2](https://ggplot2.tidyverse.org/).
       theme_light() + theme(legend.position=c(.88,.78)) +
       coord_sf(xlim=c(-22,48), ylim=c(34,70))
 
-{{< figure src="/media/img/tutorials/LAI_plot_demo.png" caption="" numbered="false" >}}
+{{< figure src="/img/tutorials/LAI_plot_demo.png" caption="" numbered="false" >}}
 
 ## Data Integrity
 

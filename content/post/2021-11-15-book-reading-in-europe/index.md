@@ -29,7 +29,7 @@ image:
 
 The indicator is created from the Eurobarometer 79.2 survey’s [GESIS datafile](https://search.gesis.org/research_data/ZA5688) using regional subsamples. The regional subsamples were recoded to the NUTS 2016 regional boundary definitions with the [regions](https://regions.dataobservatory.eu/) R package. In the larger countries, where only NUTS1 level information was present (for example, in Germany and the United Kingdom), we imputed the NUTS1 territorial average values to the constituent NUTS2 regions.
 
-<td style="text-align: center;">{{< figure src="/media/img/indicators/eurobarometer_79_2_is_read_book_plot.png" caption="We placed the [authoritative copy with metadata](https://zenodo.org/record/5703222#.YZKp8GDMLIV) on the Zenodo open repository." numbered="false" >}}</td>
+<td style="text-align: center;">{{< figure src="/img/indicators/eurobarometer_79_2_is_read_book_plot.png" caption="We placed the [authoritative copy with metadata](https://zenodo.org/record/5703222#.YZKp8GDMLIV) on the Zenodo open repository." numbered="false" >}}</td>
 
 A ‘dirty averaging’ was used to create regional averages, with scale national post-stratification weights to an expected value of 1. Al respondents who read at least one book in the previous 12 months were coded to have read a book.
 
