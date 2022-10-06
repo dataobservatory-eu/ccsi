@@ -40,7 +40,7 @@ social:
   link: https://github.com/dataobservatory-eu/
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/company/79286750/
+  link: https://www.linkedin.com/company/80644612/
 - icon: fingerprint
   icon_pack: fas
   link: https://zenodo.org/communities/ccsi/

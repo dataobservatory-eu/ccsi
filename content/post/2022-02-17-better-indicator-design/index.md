@@ -39,6 +39,6 @@ Our quality assurance program is sometimes the same as in national statistical o
 
 -	[x] We have a similar [Rest API](https://api.music.dataobservatory.eu/) to the Eurostat data warehouse for automatic database connections.  But we always make sure that the data is available in the easiest to use form for SPSS, STATA, Excel, Numbers, or OpenOffice.
 
-{{% callout note %}}Currently we have only ad hoc funding, and we could not process all the data we have. In fact, we have more than 1000 indicators in our treasure trove --- if you need something, just [contact us]((https://reprex.nl/#contact)) and ask, we are more than likely to be able to give you something. If you need more data, consider joining or [R&D Consortium](https://reprex.nl/project/horizon/) as a music sector affiliated partner to seek EU funds to provide you with free and high quality data.
+{{% callout note %}}Currently we have only ad hoc funding, and we could not process all the data we have. In fact, we have more than 1000 indicators in our treasure trove --- if you need something, just [contact us]((https://reprex.nl/#contact)) and ask, we are more than likely to be able to give you something.
 {{% /callout %}}
 

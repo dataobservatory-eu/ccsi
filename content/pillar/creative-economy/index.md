@@ -1,32 +1,41 @@
 ---
 # Project title.
-title: "Music Economy"
-subtitle: "Indicators related to the music economy"
+title: "Creative Economy"
+subtitle: "Indicators related to the creative economy"
 
 # Date this page was created.
-date: 2020-10-14T10:00:00
-lastmod: 2022-09-27T08:02:00+02:00
+date: 2022-10-06T14:40:00+02:00
+lastmod: 2022-10-06T14:40:00+02:00
 
 # Project summary to display on homepage.
-summary: "The Digital Muisc Observatory monitors the music markets with an economic methodology: we not only measure market volumes and prices, but we also measure both demand- and supply side indicators so that we can forecast future market volumes or prices."
+summary: "The CCSI Data Observatory monitors the cultural markets with an economic methodology: we not only measure market volumes and prices, but we also measure both demand- and supply side indicators so that we can forecast future market volumes or prices."
 
 # Tags: can be used for filtering projects.
-tags: ["Music economy", "Valuations", "Private copying", "MusiC recommendations", "Value gap", "Music industry", "Open Policy Analysis"]
+tags: ["Creative economy", "Valuations", "Private copying", "Open Policy Analysis"]
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
+
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/CultDataObs/
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/company/80644612/
+- icon: fingerprint
+  icon_pack: fas
+  link: https://zenodo.org/communities/ccsi/ 
 
 # Slides (optional).
 slides: ""
 
 # Links (optional).
-url_pdf: ""
+url_pdf: "documents/Reprex-CCSI-2022.pdf"
 url_slides: ""
 url_video: ""
 url_code: ""
-
-# Custom links (optional).
-#url_custom: [{icon_pack: "fab", icon="twitter", name="Follow", url: "https://twitter.com/antaldaniel"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 

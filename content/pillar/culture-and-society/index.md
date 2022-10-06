@@ -19,8 +19,20 @@ external_link: ""
 #   Otherwise, set `slides: ""`.
 slides: ""
 
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/CultDataObs/
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/company/80644612/
+- icon: fingerprint
+  icon_pack: fas
+  link: https://zenodo.org/communities/ccsi/ 
+
 # Links (optional).
-url_pdf: ""
+url_pdf: "documents/Reprex-CCSI-2022.pdf"
 url_slides: ""
 url_video: ""
 url_code: ""

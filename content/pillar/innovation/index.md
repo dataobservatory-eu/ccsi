@@ -7,7 +7,6 @@ subtitle: "Innovations in the music business, music participation, and music tec
 date: 2022-10-06T08:12:00+02:00
 lastmod: 2022-10-06T08:13:20+02:00
 
-
 # Project summary to display on homepage.
 summary: ""
 
@@ -16,11 +15,23 @@ tags: ["Innovation", "Trustworthy AI", "NFT", "Blockchain", "Art+Tech"]
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/CultDataObs/
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/company/80644612/
+- icon: fingerprint
+  icon_pack: fas
+  link: https://zenodo.org/communities/ccsi/ 
+
 # Slides (optional).
 slides: ""
 
 # Links (optional).
-url_pdf: ""
+url_pdf: "documents/Reprex-CCSI-2022.pdf"
 url_slides: ""
 url_video: ""
 url_code: ""

@@ -79,7 +79,7 @@ main:
     url: '/project/openmuse/'
     weight: 53
     parent: Projects
-  - name: MusicAIRE
+  - name: RECREO
     url: '#projects'
     weight: 54
     parent: Projects

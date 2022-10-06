@@ -10,19 +10,19 @@ weight: 70  # Order that this section will appear.
 title: "Contributors of the Digital Music Observatory"
 subtitle: "Join our open collaboration team as a [data curator](/authors/curator), [developer](/authors/developer) or [business developer](/authors/team)! More about contributing: [Automated Observatory Contributors’ Handbook](http://contributors.dataobservatory.eu/)."
 
-[content]
+content:
   # Choose which groups/teams of users to display.
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
   user_groups: ["developers", "data curators", "service development team", "institutional partners", "join us"]
 
-[design]
+design:
   # Show user's social networking links? (true/false)
   show_social: false
 
   # Show user's interests? (true/false)
   show_interests: true
 
-[design.background]
+design.background:
   # Apply a background color, gradient, or image.
   #   Uncomment (by removing `#`) an option to apply it.
   #   Choose a light or dark text color by setting `text_color_light`.
@@ -42,10 +42,4 @@ subtitle: "Join our open collaboration team as a [data curator](/authors/curator
   # Text color (true=light or false=dark).
   # text_color_light: true
 
-[advanced]
- # Custom CSS.
- css_style: ""
-
- # CSS class.
- css_class: ""
 ---
