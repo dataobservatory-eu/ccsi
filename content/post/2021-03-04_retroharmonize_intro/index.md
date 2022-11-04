@@ -56,7 +56,7 @@ categories:
 Retrospective survey harmonization allows the comparison of opinion poll
 data conducted in different countries or time. In this example we are
 working with data from surveys that were ex ante harmonized to a certain
-degree – in our tutorials we are choosing questions that were asked in
+degree—in our tutorials we are choosing questions that were asked in
 the same way in many natural languages. For example, you can compare
 what percentage of the European people in various countries, provinces
 and regions thought climate change was a serious world problem back in

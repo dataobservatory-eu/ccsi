@@ -57,11 +57,11 @@ The message is the message! We are an ethical data and AI company, and one of ou
 
 🇳🇱 🇬🇧 🇧🇦 🇨🇿 🇭🇺 🇩🇪 🇱🇹 🇫🇷 🇸🇰 🇪🇸 🇹🇷 + Catalan. 
 
-2 **Retweet** our appeal from one of our observatory Twitter accounts. For music audiences:
+2 **Retweet** our appeal from one of our observatory Twitter accounts. For cultural audiences:
 
-{{< tweet user="DigitalMusicObs" id="1587480876383887369" >}}
+{{< tweet user="CultDataObs" id="1587482559851761664" >}}
 
-The same message forgeneral cultural audiences: [@CultDataObs](https://twitter.com/CultDataObs/status/1587482559851761664); for green audiences: [@GreeDealObs](https://twitter.com/GreenDealObs/status/1587513316699668482).
+The same message for music audiences: [@DigitalMusicObs](https://twitter.com/DigitalMusicObs/status/1587480876383887369); for green audiences: [@GreeDealObs](https://twitter.com/GreenDealObs/status/1587513316699668482).
 
 3. Like our [LinkedIn page]((https://www.linkedin.com/posts/reprexbv_the-hague-innovators-2022-reprex-activity-6993244940323430400-Z5dD)) and share our appeal.
 

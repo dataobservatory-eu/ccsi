@@ -85,7 +85,7 @@ Ezeken a nyelveken is elérhető az üzenetünk:
 
 {{< tweet user="CultDataObs" id="1587482559851761664" >}}
 
-Általános kulturális körökben inkább ezt: [@CultDataObs](https://twitter.com/CultDataObs/status/1587482559851761664); zöldeknek meg ezt: [@GreeDealObs](https://twitter.com/GreenDealObs/status/1587513316699668482).
+Zenei körökben inkább ezt: [@DigitalMusicObs](https://twitter.com/DigitalMusicObs/status/1587480876383887369); zöldeknek meg ezt: [@GreeDealObs](https://twitter.com/GreenDealObs/status/1587513316699668482).
 
 3. Lájkold a [LinkedIn oldalunkat]((https://www.linkedin.com/posts/reprexbv_the-hague-innovators-2022-reprex-activity-6993244940323430400-Z5dD)) és ha teheted, ott is oszd meg a felhívásunkat néhány kedves magyar szó kíséretében.
 
