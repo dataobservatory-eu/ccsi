@@ -9,6 +9,18 @@ authors: ["daniel_antal", "rOpenGov", "leo_lahti", "kasia_kulma"]
 
 tags: ["open data", "open science", "regional data", "sub-national data", "R", "data collection"]
 
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/CultDataObs/
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/company/80644612/
+- icon: fa-solid fa-code
+  icon_pack: fas
+  link: https://regions.dataobservatory.eu/
+
 summary: "There are numerous advantages of switching from a national level of the analysis to a sub-national level comes with a huge price in data processing, validation and imputation, and the regions package aims to help this process."
 
 projects: ""

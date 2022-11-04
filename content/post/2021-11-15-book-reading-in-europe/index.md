@@ -7,7 +7,7 @@ draft: false
 
 authors: ["daniel_antal"]
 
-tags: ["books", "reading", "regional data", "data-as-service"]
+tags: ["Books", "Reading", "Regional data", "Cultural & Creative Sectors and Industries Observatory"]
 
 summary: "The indicator is created from the Eurobarometer 79.2 survey’s [GESIS datafile](https://search.gesis.org/research_data/ZA5688) using regional subsamples."
 

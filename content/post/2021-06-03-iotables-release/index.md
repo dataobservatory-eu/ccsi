@@ -7,10 +7,21 @@ draft: false
 
 authors: ["Daniel Antal"]
 
-tags: ["open data", "open science", "iotables", "datathon", "economic impact analysis", "environmental impact analysis"]
+tags: ["open data", "open science", "iotables", "economic impact analysis", "environmental impact analysis"]
 
 summary: "rOpenGov, Reprex, and other open collaboration partners teamed up to build on our expertise of open source statistical software development further: we want to create a technologically and financially feasible data-as-service to put our reproducible research products into wider user for the business analyst, scientific researcher and evidence-based policy design communities. Our new release will help with automated economic impact and environmental impact analysis."
 
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/CultDataObs/
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/company/80644612/
+- icon: fa-solid fa-code
+  icon_pack: fas
+  link: https://iotables.dataobservatory.eu/
 projects: ""
 
 # Featured image

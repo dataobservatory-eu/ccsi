@@ -7,9 +7,21 @@ draft: false
 
 authors: ["daniel_antal"]
 
-tags: ["R", "metadata", "statistics", "SDMX"]
+tags: ["R", "Metadata", "statistics", "SDMX"]
 
 summary: "A new building block of our observatories went through code peer review and was released yesterday. The statcodelists R package aim to promote the  reuse and exchange of statistical information and related metadata with making the internationally standardized SDMX code lists available for the R user."
+
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/CultDataObs/
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/company/80644612/
+- icon: fa-solid fa-code
+  icon_pack: fas
+  link: https://statcodelists.dataobservatory.eu/
 
 # Featured image
 image:

@@ -32,8 +32,20 @@ authors:
 - daniel_antal
 
 tags:
-- retrospective-harmonization
-- surveys
+- Surveys
+
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/CultDataObs/
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/company/80644612/
+- icon: fa-solid fa-code
+  icon_pack: fas
+  link: https://retroharmonize.dataobservatory.eu/
+
 
 categories:
 - R-bloggers

@@ -7,7 +7,17 @@ subtitle: Harmonizing survey variables and survey metadata.
 summary: In this example we are working with data from surveys that were ex ante harmonized to a certain degree – in our tutorials we are choosing questions that were asked in the same way in many natural languages.  For example, you can compare what percentage of the European people in various countries, provinces and regions thought climate change was a serious world problem back in 2013, 2015, 2017 and 2019.
 
 # Link this post with a project
-projects: []
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/CultDataObs/
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/company/80644612/
+- icon: fa-solid fa-code
+  icon_pack: fas
+  link: https://retroharmonize.dataobservatory.eu/
 
 # Date published
 date: "2021-03-05T00:00:00Z"

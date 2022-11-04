@@ -7,7 +7,7 @@ draft: false
 
 authors: ["daniel_antal"]
 
-tags: ["ccsi","data-as-service", "innovation", "inclusiveness"]
+tags: [Cultural & Creative Sectors and Industries Observatory", "Innovation", "Inclusiveness"]
 
 summary: "Reprex joined the `REshaping CCSI REsearch: Open data, policy analysis and methods for evidence-based decision-making consortium` consortium, which will mainly develop new policy evidence in the field of innovation and inclusiveness for the creative and cultural sectors, industries."
 

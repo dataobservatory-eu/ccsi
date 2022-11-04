@@ -7,7 +7,7 @@ draft: false
 
 authors: ["daniel_antal"]
 
-tags: ["radio broadcasting","data-as-service", "API", "metadata", "forecasting", "missing data"]
+tags: ["Radio broadcasting","Cultural & Creative Sectors and Industries Observatory", "Metadata", "Forecasting", "Missing data"]
 
 summary: "Public data sources are often plagued with missng values. Naively you may think that you can ignore them, but think twice: in most cases, missing data in a table is not missing information, but rather malformatted information which will destroy your beautiful visualization or stop your application from working. In this example we show how we increase the usable subset of a public dataset by 66.7%, rendering useful what would otherwise have been a deal-breaker in panel regressions or machine learning applications."
 
