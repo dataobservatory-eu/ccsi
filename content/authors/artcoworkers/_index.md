@@ -57,7 +57,3 @@ user_groups:
 {{< icon name="download" pack="fas" >}} Download the {{< staticref "documents/ARTcoWORKers-project-description2022.pdf" "newtab" >}}project introduction{{< /staticref >}}.
 
 The aim of the project is to empower and skill people with disabilities to use arts and theatre play for self-representation and getting equal rights during a pandemic but also in other situations of discrimination. They will have better and equal access to adult learning opportunities especially to digital learning. The cooperation between adult training organisations and arts and culture businesses shall lead to reinforcement of creativity in non-formal and formal education, and enable to re-integrate people with disabilities into the workforce of cultural and creative enterprises.
-
-
-
-
