@@ -7,7 +7,7 @@ headless: true  # This file represents a page section.
 active: true  # Activate this widget? true/false
 weight: 70  # Order that this section will appear.
 
-title: "Contributors of the Digital Music Observatory"
+title: "Partners & Contributors of the Cultural & Creative Sectors and Industries Observatory"
 subtitle: "Join our open collaboration team as a [data curator](/authors/curator), [developer](/authors/developer) or [business developer](/authors/team)! More about contributing: [Automated Observatory Contributors’ Handbook](http://contributors.dataobservatory.eu/)."
 
 content:
