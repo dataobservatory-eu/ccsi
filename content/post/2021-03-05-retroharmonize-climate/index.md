@@ -1,7 +1,7 @@
 ---
 # Literal : is not allowed here
-title: Retrospective Survey Harmonization Case Study - Climate Awareness Change in Europe 2013-2019. 
-subtitle: Harmonizing survey variables and survey metadata.
+title: "Climate Awareness Change in Europe 2013-2019" 
+subtitle: A retrospective survey harmonization case study
 
 # Summary for listings and search engines
 summary: In this example we are working with data from surveys that were ex ante harmonized to a certain degree – in our tutorials we are choosing questions that were asked in the same way in many natural languages.  For example, you can compare what percentage of the European people in various countries, provinces and regions thought climate change was a serious world problem back in 2013, 2015, 2017 and 2019.
@@ -17,13 +17,16 @@ links:
   link: https://www.linkedin.com/company/80644612/
 - icon: fa-solid fa-code
   icon_pack: fas
+  name: Code & Tutorials
   link: https://retroharmonize.dataobservatory.eu/
+- icon: github
+  icon_pack: fab
+  name: Contributions, Feedback & Bug Reports
+  link: https://github.com/rOpenGov/retroharmonize/
 
 # Date published
 date: "2021-03-05T00:00:00Z"
-
-# Date updated
-lastmod: "2021-03-05T00:00:00Z"
+lastmod: "2022-11-05T11:34:00+01:00"
 
 # Is this an unpublished draft?
 draft: false
@@ -43,10 +46,10 @@ authors:
 - daniel_antal
 
 tags:
-- retrospective-harmonization
-- surveys
-- climate-change
-- climate-awareness
+- Surveys
+- Climate change
+- Climate awareness
+- Climate adoption
 
 categories:
 - R-bloggers

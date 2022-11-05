@@ -33,6 +33,8 @@ authors:
 
 tags:
 - Surveys
+- Climate change
+- Climate awareness
 
 links:
 - icon: twitter
@@ -44,6 +46,7 @@ links:
   link: https://www.linkedin.com/company/80644612/
 - icon: fa-solid fa-code
   icon_pack: fas
+  namame: Code & Tutorials
   link: https://retroharmonize.dataobservatory.eu/
 
 

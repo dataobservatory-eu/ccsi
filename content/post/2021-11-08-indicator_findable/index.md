@@ -11,18 +11,25 @@ tags: ["Cultural & Creative Sectors and Industries Observatory","Metadata", "FAI
 
 summary: "Many people ask if we can really add value to free data that can be downloaded from the Internet by anybody. We do not only work with easy-to-download data, but we know that free, public data usually requires a lot of work to become really valuable. To start with, it is not always easy to find."
 
-project: "horizon"
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/CultDataObs/
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/company/80644612/
+- icon: sun
+  icon_pack: fas
+  name: CCSI Open Data
+  link: https://zenodo.org/communities/ccsi/
+
+project: ""
 
 # Featured image
 image:
-  # Caption (optional)
   caption: "Photo: [Jack Sloop](https://unsplash.com/photos/eYwn81sPkJ8)"
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point: "Center"
-
-  # Show image only in page previews?
   preview_only: false
 
 ---

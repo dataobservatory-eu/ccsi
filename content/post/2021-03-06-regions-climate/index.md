@@ -1,19 +1,38 @@
 ---
 # Literal : is not allowed here
-title: Regional Geocoding Harmonization Case Study - Regional Climate Change Awareness Datasets 
+title: "Regional Climate Change Awareness Datasets: A Regional Geocoding Harmonization Case Study"  
 subtitle: Harmonizing sub-national geographical information
 
 # Summary for listings and search engines
 summary: In the previous example we created a longitudional dataset that contains data on the attitudes European people in various countries, provinces and regions thought climate change was a serious world problem back in 2013, 2015, 2017 and 2019. We will now fix the geographical information for mapping.
+
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/CultDataObs/
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/company/80644612/
+- icon: fa-solid fa-code
+  icon_pack: fas
+  name: Code & Tutorials
+  link: https://retroharmonize.dataobservatory.eu/
+- icon: github
+  icon_pack: fab
+  name: Contributions, Feedback & Bug Reports
+  link: https://github.com/rOpenGov/retroharmonize/
+- icon: sun
+  icon_pack: fas
+  name: CCSI Open Data
+  link: https://zenodo.org/communities/ccsi/
  
 # Link this post with a project
 projects: []
 
 # Date published
 date: "2021-03-06T00:00:00Z"
-
-# Date updated
-lastmod: "2021-03-06T00:00:00Z"
+lastmod: "2022-11-05T11:34:00+01:00"
 
 # Is this an unpublished draft?
 draft: false
@@ -33,10 +52,9 @@ authors:
 - daniel_antal
 
 tags:
-- retrospective-harmonization
-- surveys
-- climate-change
-- climate-awareness
+- Surveys
+- Climate change
+- Climate awareness
 
 categories:
 - R-bloggers

@@ -21,7 +21,12 @@ links:
   link: https://www.linkedin.com/company/80644612/
 - icon: fa-solid fa-code
   icon_pack: fas
+  name: Code & Tutorials
   link: https://statcodelists.dataobservatory.eu/
+- icon: github
+  icon_pack: fab
+  name: Contributions, Feedback & Bug Reports
+  link: https://github.com/antaldaniel/statcodelists/
 
 # Featured image
 image:
