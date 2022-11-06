@@ -1,73 +1,95 @@
 ---
 # Project title.
-title: "Horizon Europe Consortium"
-subtitle: "We are looking for end-users and dissemination partners to test our data and visualization products" 
-
-# Date this page was created.
-date: 2021-10-14T10:00:00
-lastmod: 2021-05-06T18:52:00
+title: "Call for Research & Innovation Interest"
+subtitle: "We are looking for partners in Horizon Europe Research & Innovation Action programs" 
+date: 2022-11-06T17:52:00+01:00
+lastmod: 2022-11-06T17:52:00+01:00
 
 # Project summary to display on homepage.
-summary: "OpenMusE brings together music industry stakeholders and researchers from 12 European countries. Our partners represent the diversity of the industry, as well as the shared need to find financially, socially, and environmentally sustainable policy and business models in multiple, sometimes-fragmented streams (e.g., live music, composers/publishers, and recordings with producers and performers)"
-
-# Tags: can be used for filtering projects.
-tags: ["Digital Music Observatory", "Music Moves Europe", "Horizon Europe"]
+summary: "We want to avoid the strategic mistake to build parallel knowledge graphs and solutions for the cultural and creative industries for new, current content, and other organizations for managing "heritage" value digital content. We believe that almost all digital representations of cultural heritage, by design, carry some authors’ rights (copyright) or neighboring rights’, and therefore participate in contemporary rights  management."
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example-slides"` references 
-#   `content/slides/example-slides.md`.
-#   Otherwise, set `slides: ""`.
+links:
+ - icon: twitter
+   icon_pack: fab
+   name: "@CultDataObs"
+   url: https://twitter.com/CultDataObs
+  
 slides: ""
 
 # Links (optional).
-url_pdf: "https://reprex.nl/documnets/DMO_Horizon_Europe_Invitation_2022_03_20.pdf"
+url_pdf: ""
 url_slides: ""
 url_video: ""
 url_code: ""
 
-# Custom links (optional).
-#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-#url_custom: [{icon_pack: "fab", icon="twitter", name="Follow", url: "https://twitter.com/antaldaniel"}]
+tags:
+  - Cultural heritage
+  - Reuse
+  - Licensing
+  - Climate change
+  - Climate adoption
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
 image:
-  # Caption (optional)
   caption: ""
-  
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point: "Center"
   preview_only: true
 ---
 
-<td style="text-align: center;">{{< figure src="/img/blogposts_2022/logos_3_1.jpg" caption="" numbered="false" >}}</td>
+{{< toc >}}
 
-The [OpenMusE](https://music.dataobservatory.eu/usecase/openmuse/) Consortium  brings together music industry stakeholders and researchers from 12 European countries. Our partners represent the diversity of the industry, as well as the shared need to find financially, socially, and environmentally sustainable policy and business models in multiple, sometimes-fragmented streams (e.g., live music, composers/publishers, and recordings with producers and performers).
+## HORIZON-CL2-2023-HERITAGE-01-03: Re-visiting the digitisation of cultural heritage: What, how and why? 
 
-Good policies require supporting evidence, and good business planning and copyright exploitation require high-quality data. OpenMusE will provide such data through novel, open-source tools that leverage automation to enable transfer to nearly any European market. We will disseminate our data via “live policy documents” and visualisations hosted on our Open Music Observatory, which automatically update when data sources are refreshed. This will set a concrete precedent and a clear path towards a more competitive, fair, and sustainable European music ecosystem.
+>Digitisation of cultural heritage can bring many benefits. In terms of preservation, accessibility and of supporting cultural and creative innovation, digitised cultural heritage can be an enormous asset. One of the reasons why these large investments are made is that such digitised objects should facilitate a wider, more creative use of Europe’s world-renowned cultural heritage, and the creation of more societal value in Europe and beyond. 
 
-We hope to get funding from the Horizon Europe HORIZON-RIA HORIZON Research and Innovation Action _Research and innovation on cultural heritage and CCIs - 2022 (HORIZON-CL2-2022-HERITAGE-01)_ [Towards a competitive, fair and sustainable European music ecosystem](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2022-heritage-01-05) with our competitive tender bid. 
+Based on our extensive experience with music, and dealing with digital objects, we aim the CCSI Observatory to provide tools for other cultural sectors to offer legal digital representations of their collections. Our approach is the connection of existing platforms and tools that work on the basis of the Open Data Directive and various other tools promoted by [Digital Cultural Heritage](https://digital-strategy.ec.europa.eu/en/policies/cultural-heritage) strategy. 
 
-Our aim is to partially fill 41/45 identified European data gaps within the Music Moves Europe framework. (See our [data coverage](https://reprex.nl/project/horizon/#data-coverage) below.)
+We want to avoid the strategic mistake to build parallel knowledge graphs and solutions for the cultural and creative industries for new, current content, and other organizations for managing "heritage" value digital content. We believe that almost all digital representations of cultural heritage, by design, carry some authors’ rights (copyright) or neighboring rights’, and therefore participate in contemporary rights  management.  
 
-We are looking for end-users and dissemination partners to help us define the European music industry's data needs, help us collect the data, and review our work in the context of the Horizon Europe call *Towards a competitive, fair and sustainable European music ecosystem*.
+> Other risks may emerge from the (perceived) loss of control over the use of the digital objects, possibly prompting cultural heritage institutions to limit access to and the use of their digital assets, thus hampering the realisation of the wider societal value digitization is expected to bring.
 
-## Data that we can offer
-By providing continually updated data on five industry pillars – innovation, music and society, music economy, music diversity and circulation, and music policy – we will accurately capture the economic and social value created by the sector, as well as providing stakeholders with data-driven means of maximizing this value.
-- [x] **For copyright and neighbouring rights-holders and their organizations**: Value of music, euro value of the value gap, private copying, privacy---we have data and make estimates with all known music value estimation techniques.
-- [x]	**For live music organizations**: Pan-European audience surveys; demographic comparisons of all European audiences; attendance predictions, attendance profiling.
-- [x] **For granting authorities**: we have the world's largest survey-based dataset on how musicians work and live; we create ex ante needs assessment and grants evaluation indicators and ex-post grant evaluation indicators.
-- [x] **For labels and music publishers**: we make big data understandable; we create price and volume indexes of streaming markets; we tell you about price developments and selection probabilities in different cities and countries; we understand the biases of the Spotify and YouTube algorithms; and we measure (meta)data problems and offer scalable solutions.
-- [x] **For music export offices**: we measure domestic and foreign market shares in streaming; we create actionable key performance indicators; and we do geographical targeting.
+Our Digital Music Observatory was built patiently over 10 years managing these perceived risks. For example, most recordings of the works of Beethoven, as well as modern notation of his work, midi-files, tutorials, books, and television content are protected by various rights, and therefore the digital representation and its metadata can be found in non-heritage systems.  The strategic role of the CCSI Observatory is to connect such systems both from a technical and a reuse business model perspective. This will result in much private investment into digitization and much better dissemination that non-market-oriented cultural heritage organizations can provide. 
 
-## Open collaboration
-Our project is based on open collaboration.  Our proposal, if funded, will provide us with resources to supply further music businesses, music civil society organizations and researchers with high-quality data (during the duration of the project for free.)  We are already looking for interested parties to put our data and research projects into use and validate their usability and quality in real-life policy or business development scenarios.
 
-<td style="text-align: center;">{{< figure src="/img/blogposts_2021/creative_flip_brussels_2020.jpg" caption="Presenting our [Central & Eastern European Music Industry Report 2020](https://music.dataobservatory.eu/publication/ceereport_2020/) as a case-study on [evidence-based policymaking](https://music.dataobservatory.eu/post/2020-01-30-ceereport/) in the two-day high-level stakeholder event jointly organized by Geothe-Institute and the DG Education and Culture." numbered="false" >}}</td>
+> To the extent possible, projects should build on existing knowledge, activities and networks, notably the ones funded by the European Union. Furthermore, where appropriate projects should establish links and seek synergies with related actions, such as relevant R&I actions funded by Horizon Europe or Horizon 2020. In particular, projects should liaise with the projects funded under the “European cloud platform for museums and other cultural heritage institutions” initiative in the frame of Horizon Europe Cluster 2.
+
+Our CCSI Observatory and its partners are involved in many such projects. 
+
+<td style="text-align: center;">{{< figure src="/blogposts_2022/Eurostat_using_indicators_way_communicating_captioned.jpg" caption="We will bring novelty into the best practices of statistical indicator development laid out by Eurostat" numbered="false" >}}</td>
+
+
+## HORIZON-CL2-2023-HERITAGE-01-02: Cultural and creative industries for a sustainable climate transition
+
+1. Evidence-based approach(es) on how innovative business models, including use of new technology, can make Europe’s cultural and creative industries (CCIs) true drivers of a sustainable climate transition. 
+
+2. European CCIs better prepared to adapt to and contribute to the climate transition in line with the 2030 goals spelled out under a European Green Deal
+
+> At the same time, the CCIs are characterised by a large and diverse number of chiefly small and micro enterprises, as well as by hefty differences across geographical and sectorial divides. Large parts of the CCIs, thus, lack the capacity to take the necessary measures to adapt to and thrive under the climate transition, not to speak of driving this transition.
+
+Reprex and its partners are working on connected financial and sustainability reporting tools that cover the entire value chain of cultural and creative industries. Our mission is to bring down the cost of such sustainability management tools from about 10,000 euros per organization below 500 euros, which will immediately pay off in case _green bank loans_, _green insurance_ or _green subsidies_ are applied by the user.
+
+
+> Specific approaches are therefore needed to enable Europe’s CCIs to develop their full potential to support a sustainable climate transition. Projects should develop and validate an economically sustainable model, or a portfolio of approaches, that address this challenge. Proposals should select a suitable set of CCI sector(s), or/and cross-sectoral issues, to focus on, which allow significant impacts to be achieved.
+
+Sustainability management requires significant investment into knowledge, business and environmental information. This is critically difficult to achieve in CCIs, where usually there is no separate IT, data, or sustainability function present in the company due to the small organization size. Reprex is an expert in scaling up the reporting and research needs of CCIs to shared, collaborative solutions via the [Digital Music Observatory](https://music.dataobservatory.eu/), [Green Deal Data Observatory](https://greendeal.dataobservatory.eu/) and the [CCSI Observatory](https://ccsi.dataobservatory.eu/). 
+
+
+**Open science and scientific software development**
+
+Open Policy Analysis interlinks with the OpenMuse commitment to reproducible science and open scientific software, which are seen as cornerstones of evidence-based policymaking – and which are increasingly becoming not only best practices but requirements in EU-funded research and innovation actions. At the heart of open science are replicability and reproducibility. Whilst replicability (as new evidence comes to the surface, it corroborates earlier statements) has always been a requirement of scientific results, reproducibility is relatively novel in practice: it refers to the ability of an entire research process to be re-run easily by an independent auditor. This increases transparency and quality control.
+
+This revolutionary functionality is made available through the iterative development of the UTU project rOpenGov, a sophisticated set of open-source data collection and analysis tools written in the programming language R (Lahti et al. 2017). Several rOpenGov tools were co-developed with REPREX specifically for use in the music industry. The current toolkit includes:
+
+* [eurostat](https://ropengov.github.io/eurostat/), the headline product of rOpenGov, which provides reproducible access to the Eurostat data warehouse, containing more than 3000 users.
+* [iotables](https://iotables.dataobservatory.eu/), which produces GVA, employment, tax, and greenhouse gas emissions indicators for the music industry and other industries using data from Eurostat and the European Environmental Agency, counting with several hundred users globally.
+* [regions](https://regions.dataobservatory.eu/), which corrects NUTS boundary information and automatically corrects regional datasets, with more than 500 global users.
+* [retroharmonize](https://retroharmonize.dataobservatory.eu/), which allows the recycling of surveys, and the execution of more efficient new surveys, has about 200 users globally.
+* [spotifyr](https://www.rcharlie.com/spotifyr/), which wraps the Spotify API and allows access to streaming data, and is maintained by our Consortium members since mid-2021 (after the original developer joined Spotify); it has about 1500 music research users.
+* [statcodelists](https://statcodelists.dataobservatory.eu/) will help your use of standardized statistical codelists, which allows to share or syncronize data in a natural language independent way.
+* [dataset](https://dataset.dataobservatory.eu/) will create interoperable FAIR datasets that conform with the Statistical Data and Metadata Exchange and the W3C web standards, release your data in in open science repositories and place them on knowledge graphs.
+
 
