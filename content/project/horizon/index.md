@@ -1,22 +1,32 @@
 ---
-# Project title.
 title: "Call for Research & Innovation Interest"
 subtitle: "We are looking for partners in Horizon Europe Research & Innovation Action programs" 
 date: 2022-11-06T17:52:00+01:00
 lastmod: 2022-11-06T17:52:00+01:00
 
-# Project summary to display on homepage.
-summary: "We want to avoid the strategic mistake to build parallel knowledge graphs and solutions for the cultural and creative industries for new, current content, and other organizations for managing "heritage" value digital content. We believe that almost all digital representations of cultural heritage, by design, carry some authors’ rights (copyright) or neighboring rights’, and therefore participate in contemporary rights  management."
+summary: "We want to avoid the strategic mistake to build parallel knowledge graphs and solutions for the cultural and creative industries for new, current content, and other organizations for managing `heritage` value digital content. We believe that almost all digital representations of cultural heritage, by design, carry some authors’ rights (copyright) or neighboring rights’, and therefore participate in contemporary rights  management."
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
 links:
- - icon: twitter
-   icon_pack: fab
-   name: "@CultDataObs"
-   url: https://twitter.com/CultDataObs
-  
+- icon: twitter
+  icon_pack: fab
+  name: "@CultDataObs"
+  url: https://twitter.com/CultDataObs
+- icon: github
+  icon_pack: fab
+  name: Open repositories
+  link: https://github.com/dataobservatory-eu/
+- icon: fingerprint
+  icon_pack: fas
+  name: Authoritative Open Datasets
+  link: https://zenodo.org/communities/ccsi/
+- icon: linkedin
+  icon_pack: fab
+  name: Get in touch
+  link: https://www.linkedin.com/company/80644612/
+
 slides: ""
 
 # Links (optional).
@@ -42,6 +52,10 @@ image:
 
 {{< toc >}}
 
+We want to avoid the strategic mistake to build parallel knowledge graphs and solutions for the cultural and creative industries for new, current content, and other organizations for managing `heritage` value digital content. We believe that almost all digital representations of cultural heritage, by design, carry some authors’ rights (copyright) or neighboring rights’, and therefore participate in contemporary rights  management.
+
+
+
 ## HORIZON-CL2-2023-HERITAGE-01-03: Re-visiting the digitisation of cultural heritage: What, how and why? 
 
 >Digitisation of cultural heritage can bring many benefits. In terms of preservation, accessibility and of supporting cultural and creative innovation, digitised cultural heritage can be an enormous asset. One of the reasons why these large investments are made is that such digitised objects should facilitate a wider, more creative use of Europe’s world-renowned cultural heritage, and the creation of more societal value in Europe and beyond. 
@@ -59,7 +73,7 @@ Our Digital Music Observatory was built patiently over 10 years managing these p
 
 Our CCSI Observatory and its partners are involved in many such projects. 
 
-<td style="text-align: center;">{{< figure src="/blogposts_2022/Eurostat_using_indicators_way_communicating_captioned.jpg" caption="We will bring novelty into the best practices of statistical indicator development laid out by Eurostat" numbered="false" >}}</td>
+<td style="text-align: center;">{{< figure src="/blogposts_2022/horizon_europe.png" caption="Based on our extensive experience with music, and dealing with digital objects, we aim the CCSI Observatory to provide tools for other cultural sectors to offer legal digital representations of their collections." numbered="false" >}}</td>
 
 
 ## HORIZON-CL2-2023-HERITAGE-01-02: Cultural and creative industries for a sustainable climate transition
@@ -71,7 +85,6 @@ Our CCSI Observatory and its partners are involved in many such projects.
 > At the same time, the CCIs are characterised by a large and diverse number of chiefly small and micro enterprises, as well as by hefty differences across geographical and sectorial divides. Large parts of the CCIs, thus, lack the capacity to take the necessary measures to adapt to and thrive under the climate transition, not to speak of driving this transition.
 
 Reprex and its partners are working on connected financial and sustainability reporting tools that cover the entire value chain of cultural and creative industries. Our mission is to bring down the cost of such sustainability management tools from about 10,000 euros per organization below 500 euros, which will immediately pay off in case _green bank loans_, _green insurance_ or _green subsidies_ are applied by the user.
-
 
 > Specific approaches are therefore needed to enable Europe’s CCIs to develop their full potential to support a sustainable climate transition. Projects should develop and validate an economically sustainable model, or a portfolio of approaches, that address this challenge. Proposals should select a suitable set of CCI sector(s), or/and cross-sectoral issues, to focus on, which allow significant impacts to be achieved.
 

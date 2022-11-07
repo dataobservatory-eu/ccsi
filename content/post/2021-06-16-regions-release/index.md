@@ -7,18 +7,20 @@ draft: false
 
 authors: ["daniel_antal", "rOpenGov", "leo_lahti", "kasia_kulma"]
 
-tags: ["open data", "open science", "regional data", "sub-national data", "R", "data collection"]
+tags: ["Open data", "Open science", "Regional data", "sub-national data", "R", "Data collection"]
 
 links:
 - icon: twitter
   icon_pack: fab
-  name: Follow
+  name: "Follow @CultDataObs"
   url: https://twitter.com/CultDataObs/
 - icon: linkedin
   icon_pack: fab
+  name: CCSI Observatory
   link: https://www.linkedin.com/company/80644612/
 - icon: fa-solid fa-code
   icon_pack: fas
+  name: regions code and tutorials
   link: https://regions.dataobservatory.eu/
 
 summary: "There are numerous advantages of switching from a national level of the analysis to a sub-national level comes with a huge price in data processing, validation and imputation, and the regions package aims to help this process."
@@ -27,16 +29,9 @@ projects: ""
 
 # Featured image
 image:
-  # Caption (optional)
-  caption: "Annette Wong"
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  caption: "Try [regions](https://regions.dataobservatory.eu/)"
   focal_point: "Center"
-
-  # Show image only in page previews?
   preview_only: true
-
 ---
 
 {{< figure src="/img/package_screenshots/regions_017_169.png" numbered="false" >}}

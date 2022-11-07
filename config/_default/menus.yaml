@@ -94,6 +94,10 @@ main:
     url: '#projects'
     weight: 54
     parent: Projects
+  - name: Call for Interest
+    url: "../project/horizon"
+    weight: 55
+    parent: Projects
   - name: Publications
     url: '#featured'
     weight: 60
@@ -107,9 +111,17 @@ main:
     weight: 62
     parent: Publications
   - name: Partners
-    url: '#partners'
+    url: "#partners"
     weight: 70
     identifier: Partners
+  - name: Observatory Partners
+    url: '#partners'
+    weight: 71
+    parent: Partners
+  - name: Call for Research Interest
+    url: "../project/horizon"
+    weight: 72
+    parent: Partners
   - name: Contact
     url: '#contact'
     weight: 90

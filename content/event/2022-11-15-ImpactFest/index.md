@@ -31,7 +31,7 @@ all_day: false
 publishDate: '2022-09-13T10:20:00+02:00'
 
 authors: []
-tags: [Listen Local, OpenMusE]
+tags: [ImpactCity, ImpactFest, The Hague]
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -46,10 +46,18 @@ url_slides: ''
 url_video: ''
 
 links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow & share
+  url: https://twitter.com/CultDataObs/
 - icon: linkedin
   icon_pack: fab
-  name: Connect
+  name: Share our appeal
   url: https://www.linkedin.com/company/68855596/
+- icon: fa-solid fa-check-to-slot
+  icon_pack: fas
+  name: Vote Reprex
+  link: https://www.impactcity.nl/en/cast-your-vote-for-the-hague-innovators-challenge-2022/
 
 # Markdown Slides (optional).
 slides:
@@ -66,4 +74,5 @@ The transition towards a sustainable and inclusive economy depends on collaborat
 
 With the [The Hague Innovators Challenge](https://www.impactcity.nl/en/service/the-hague-innovators-challenge/), the municipality of The Hague challenges startups, scale-ups, and students to present their innovative ideas for global issues, as described in the UN Sustainable Development Goals (SDGs).
 
-The nominees receive a substantive program aimed at further development and the growth of the plan or organization. At the end of the substantive program, all nominees submit a definitive action plan and this is pitched to a professional jury. The jury chooses one winner per category.
+{{<youtube bgp-n55TKCk>}}
+[Vote Reprex](/post/2022-10-29_reprex-talk-to-all/)

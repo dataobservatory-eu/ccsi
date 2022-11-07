@@ -13,13 +13,15 @@ summary:  "We are finalists in The Hague Innovation Awards with a product offeri
 links:
 - icon: twitter
   icon_pack: fab
-  name: Follow
+  name: Follow & share
   url: https://twitter.com/CultDataObs/
 - icon: linkedin
   icon_pack: fab
+  name: Share our appeal
   link: https://www.linkedin.com/company/80644612/
 - icon: fa-solid fa-check-to-slot
   icon_pack: fas
+  name: Vote Reprex
   link: https://www.impactcity.nl/en/cast-your-vote-for-the-hague-innovators-challenge-2022/
 
 # Featured image
