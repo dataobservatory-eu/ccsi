@@ -54,7 +54,8 @@ image:
 
 We want to avoid the strategic mistake to build parallel knowledge graphs and solutions for the cultural and creative industries for new, current content, and other organizations for managing `heritage` value digital content. We believe that almost all digital representations of cultural heritage, by design, carry some authors’ rights (copyright) or neighboring rights’, and therefore participate in contemporary rights  management.
 
-
+{{% callout note %}}
+Engage with us on {{< staticref "https://www.linkedin.com/company/80644612/" "newtab" >}}{{< icon name="linkedin" pack="fab" >}}LinkedIn{{< /staticref >}} {{< staticref "https://twitter.com/CultDataObs/" "newtab" >}}{{< icon name="twitter" pack="fab" >}}@CultDataObs{{< /staticref >}} or check out our {{< staticref "https://zenodo.org/communities/ccsi/" "newtab" >}}{{< icon name="database" pack="fas" >}}open data{{< /staticref >}} and {{< staticref "https://github.com/dataobservatory-eu/" "newtab" >}} {{< icon name="code" pack="fas" >}} open repositories, code, tutorials{{< /staticref >}}{{% /callout %}}
 
 ## HORIZON-CL2-2023-HERITAGE-01-03: Re-visiting the digitisation of cultural heritage: What, how and why? 
 

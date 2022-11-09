@@ -11,19 +11,6 @@ tags: ["Cultural & Creative Sectors and Industries Observatory","Metadata", "FAI
 
 summary: "Many people ask if we can really add value to free data that can be downloaded from the Internet by anybody. We do not only work with easy-to-download data, but we know that free, public data usually requires a lot of work to become really valuable. To start with, it is not always easy to find."
 
-links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/CultDataObs/
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/company/80644612/
-- icon: sun
-  icon_pack: fas
-  name: CCSI Open Data
-  link: https://zenodo.org/communities/ccsi/
-
 project: ""
 
 # Featured image
@@ -35,6 +22,10 @@ image:
 ---
 
 In this example, we show a simple indicator: the *Turnover in Radio Broadcasting Enterprises* in many European countries. This is an important demand driver in the [Music economy pillar](https://music.dataobservatory.eu/#pillars) of our Digital Music Observatory, and important indicator in our more general *Cultural & Creative Sectors and Industries Observatory*. We show a very similar example in our *Green Deal Data Observatory* with [environmental R&D public spending in Europe](https://greendeal.dataobservatory.eu/post/2021-11-08-indicator_findable/).
+
+{{% callout note %}}
+Engage with us on {{< staticref "https://www.linkedin.com/company/80644612/" "newtab" >}}{{< icon name="linkedin" pack="fab" >}}LinkedIn{{< /staticref >}} {{< staticref "https://twitter.com/CultDataObs/" "newtab" >}}{{< icon name="twitter" pack="fab" >}}@CultDataObs{{< /staticref >}} or check out our {{< staticref "https://zenodo.org/communities/ccsi/" "newtab" >}}{{< icon name="database" pack="fas" >}}open data{{< /staticref >}} and {{< staticref "https://github.com/dataobservatory-eu/" "newtab" >}} {{< icon name="code" pack="fas" >}} open repositories, code, tutorials{{< /staticref >}} {{% /callout %}}
+
 
 This dataset comes from a public datasource, the data warehouse of the
 European statistical agency, Eurostat. Yet it is not trivial to use:

@@ -34,29 +34,14 @@ tags:
   - CCSI
   - ImpactCity
   - SDG
-  
-links:
-- icon: twitter
-  icon_pack: fab
-  name: "@GreenDealObs"
-  link: https://twitter.com/GreenDealObs
-- icon: github
-  icon_pack: fab
-  name: Open Repo & Code
-  link: https://github.com/dataobservatory-eu
-- icon: fingerprint
-  icon_pack: fas
-  name: Authoritative data
-  link: https://zenodo.org/communities/greendeal_observatory/
-- icon: linkedin
-  icon_pack: fab
-  name: Join our collaboration community on LinkedIn
-  link: https://www.linkedin.com/company/78556699
+
 ---
 
 [Reprex](/authors/reprex) is the Hague-based impact startup developing decentralized, modern, web 3.0-compatible data observatories. Our mission is to fulfill parts of the SDG 16 and 17 goals: based on the open collaboration method of open-source software development and open knowledge management, we would like to enable impact makers to contribute to other SDG goals by making AI and big data work for them.
 
-{{<toc>}}
+{{% callout note %}}
+Engage with us on {{< staticref "https://www.linkedin.com/company/80644612/" "newtab" >}}{{< icon name="linkedin" pack="fab" >}}LinkedIn{{< /staticref >}} {{< staticref "https://twitter.com/CultDataObs/" "newtab" >}}{{< icon name="twitter" pack="fab" >}}@CultDataObs{{< /staticref >}} or check out our {{< staticref "https://zenodo.org/communities/ccsi/" "newtab" >}}{{< icon name="database" pack="fas" >}}open data{{< /staticref >}} and {{< staticref "https://github.com/dataobservatory-eu/" "newtab" >}} {{< icon name="code" pack="fas" >}} open repositories, code, tutorials{{< /staticref >}}. 🇭🇺 [magyarul](/impactcity/magyar/) {{% /callout %}}
+{{< toc >}}
 
 ## Watch Our 2-min Introduction
 
@@ -70,8 +55,6 @@ Go to [Cast your vote for The Hague Innovators challenge 2022!](https://www.impa
 
 <td style="text-align: center;">{{< figure src="img/blogposts_2022/ImpactCity_cast_your_vote.png" caption="Make sure you select **Reprex** and write in your email (it is safe here.) You need to tick `✅ I'm not a robot'  to be able to select companies. Further instructions 🇬🇧  [here](/post/2022-10-29_reprex-talk-to-all/) 🇭🇺 [magyarul itt](/impactcity/magyar/)." numbered="false" >}}</td>
 
-
-
 ## What do we do in the cultural and creative sectors and industries?
 
 - [x] We realized in 2021 that most of the hard-to-get and difficult-to-process information sources of music are identical or very similar to those in film, gaming, books, and even fashion. We created a consortium with some of our partners in the music observatory (notably, the Institute for Information Law Research or the University of Amsterdam, and Europeana, the EU's cultural heritage harmonization body) to launch a broader data observatory for the cultural and creative sector. 
@@ -83,7 +66,6 @@ Go to [Cast your vote for The Hague Innovators challenge 2022!](https://www.impa
 ## Product 
 
 1. Our `data observatories` (platform products) cover our R&D and platform costs while giving us access to an expanding range of prime clients. We use 21-st century open-source data engineering solutions, a decentralized data governance method, and web 3.0 technologies to avoid conflicts of interest and prevent the data Sisyphus of error-prone human data wrangling.  There is little competition on this service level (there are about 60 UN/EU/OECD recognized data observatories, and almost all of them are managed by a different operator.)  This layer is already monetized, and we have proven success. Our unique advantage is a combination of legal and technological skills: understanding legally open data, web 3.0, and data modeling, and the ability to participate in the open-source statistical /scientific software creator community.
-
 
 2. We create `open-source software applications` that fuel our data observatories with unprocessed, open, linked data. We create software for the R statistical environment, which is used in both official statistics and in many business and academic organizations. The production of R software components is a competitive field, but we believe that our position is strong: the vast majority of R packages are lightly or not at all serviced because of the lack of financing. 
 

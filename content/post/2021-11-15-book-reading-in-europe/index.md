@@ -35,3 +35,6 @@ A ‘dirty averaging’ was used to create regional averages, with scale nationa
 
 This indicator was used in the 		
 Balázs Bodó, Dániel Antal, Zoltán Puha: [Can scholarly pirate libraries bridge the knowledge access gap?](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0242509) An empirical study on the structural conditions of book piracy in global and European academia, in Plos ONE (Published: December 3, 2020.)
+
+{{% callout note %}}
+Engage with us on {{< staticref "https://www.linkedin.com/company/80644612/" "newtab" >}}{{< icon name="linkedin" pack="fab" >}}LinkedIn{{< /staticref >}} {{< staticref "https://twitter.com/CultDataObs/" "newtab" >}}{{< icon name="twitter" pack="fab" >}}@CultDataObs{{< /staticref >}} or check out our {{< staticref "https://zenodo.org/communities/ccsi/" "newtab" >}}{{< icon name="database" pack="fas" >}}open data{{< /staticref >}} and {{< staticref "https://github.com/dataobservatory-eu/" "newtab" >}} {{< icon name="code" pack="fas" >}} open repositories, code, tutorials{{< /staticref >}}{{% /callout %}}

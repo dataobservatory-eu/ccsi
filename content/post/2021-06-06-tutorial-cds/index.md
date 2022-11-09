@@ -37,6 +37,9 @@ how to connect this to survey (opinion poll) and tax data, and a real
 policy problem in Belgium. We will create now subsequent tutorials to do
 more!
 
+{{% callout note %}}
+Engage with us on {{< staticref "https://www.linkedin.com/company/80644612/" "newtab" >}}{{< icon name="linkedin" pack="fab" >}}LinkedIn{{< /staticref >}} {{< staticref "https://twitter.com/CultDataObs/" "newtab" >}}{{< icon name="twitter" pack="fab" >}}@CultDataObs{{< /staticref >}} or check out our {{< staticref "https://zenodo.org/communities/ccsi/" "newtab" >}}{{< icon name="database" pack="fas" >}}open data{{< /staticref >}} and {{< staticref "https://github.com/dataobservatory-eu/" "newtab" >}} {{< icon name="code" pack="fas" >}} open repositories, code, tutorials{{< /staticref >}}{{% /callout %}}
+
 But first, why are we doing this? The European Union and its members
 states are releasing every year more and more data for open re-use since
 2003, yet these are often not used in the EU’s data dissemination

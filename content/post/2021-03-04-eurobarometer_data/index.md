@@ -47,6 +47,9 @@ Eurobarometer harmonized survey files. The Eurobarometer survey files
 are harmonized across countries, but they are only partially harmonized
 in time.
 
+{{% callout note %}}
+Engage with us on {{< staticref "https://www.linkedin.com/company/80644612/" "newtab" >}}{{< icon name="linkedin" pack="fab" >}}LinkedIn{{< /staticref >}} {{< staticref "https://twitter.com/CultDataObs/" "newtab" >}}{{< icon name="twitter" pack="fab" >}}@CultDataObs{{< /staticref >}} or check out our {{< staticref "https://zenodo.org/communities/ccsi/" "newtab" >}}{{< icon name="database" pack="fas" >}}open data{{< /staticref >}} and {{< staticref "https://github.com/dataobservatory-eu/" "newtab" >}} {{< icon name="code" pack="fas" >}} open repositories, code, tutorials{{< /staticref >}}{{% /callout %}}
+
 All data must be downloaded from the
 [GESIS](https://www.gesis.org/en/home) Data Archive in Cologne. We are
 not affiliated with GESIS and you must read and accept their terms to

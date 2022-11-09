@@ -6,24 +6,6 @@ subtitle: A retrospective survey harmonization case study
 # Summary for listings and search engines
 summary: In this example we are working with data from surveys that were ex ante harmonized to a certain degree – in our tutorials we are choosing questions that were asked in the same way in many natural languages.  For example, you can compare what percentage of the European people in various countries, provinces and regions thought climate change was a serious world problem back in 2013, 2015, 2017 and 2019.
 
-# Link this post with a project
-links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/CultDataObs/
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/company/80644612/
-- icon: fa-solid fa-code
-  icon_pack: fas
-  name: Code & Tutorials
-  link: https://retroharmonize.dataobservatory.eu/
-- icon: github
-  icon_pack: fab
-  name: Contributions, Feedback & Bug Reports
-  link: https://github.com/rOpenGov/retroharmonize/
-
 # Date published
 date: "2021-03-05T00:00:00Z"
 lastmod: "2022-11-05T11:34:00+01:00"
@@ -60,6 +42,9 @@ have shown in the
 [introduction](http://netzero.dataobservatory.eu/post/2021-03-04_retroharmonize_intro/)
 to this tutorial case study. In this example, we will work with
 Eurobarometer’s data.
+
+{{% callout note %}}
+Engage with us on {{< staticref "https://www.linkedin.com/company/80644612/" "newtab" >}}{{< icon name="linkedin" pack="fab" >}}LinkedIn{{< /staticref >}} {{< staticref "https://twitter.com/CultDataObs/" "newtab" >}}{{< icon name="twitter" pack="fab" >}}@CultDataObs{{< /staticref >}} or check out our {{< staticref "https://zenodo.org/communities/ccsi/" "newtab" >}}{{< icon name="database" pack="fas" >}}open data{{< /staticref >}} and {{< staticref "https://github.com/dataobservatory-eu/" "newtab" >}} {{< icon name="code" pack="fas" >}} open repositories, code, tutorials{{< /staticref >}}{{% /callout %}}
 
 Please use the development version of
 [retroharmonize](https://retroharmonize.dataobservatory.eu/):

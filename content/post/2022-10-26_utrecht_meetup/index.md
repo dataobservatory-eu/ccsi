@@ -35,6 +35,10 @@ Reprex's motto is `big data for all`. We want to fight data inequalities, data m
 
 [Gabija](/authors/gabija_liaugminaite/) and [Daniel](/authors/daniel_antal/) are visiting Utrecht to meet DIY musicians, labels, researchers, fans and friends to find new partners for our Listen Local projects. On an intellectual level, we are interested in trustworthy AI, data feminism, and providing a proper digital representation to music and live performances for all.  On a more emotional level, we want to meet musicians and music lovers from the indie scene. (Check out our [event page](/event/2022-10-31_utrecht/).)
 
+{{% callout note %}}
+Engage with us on {{< staticref "https://www.linkedin.com/company/80644612/" "newtab" >}}{{< icon name="linkedin" pack="fab" >}}LinkedIn{{< /staticref >}} {{< staticref "https://twitter.com/CultDataObs/" "newtab" >}}{{< icon name="twitter" pack="fab" >}}@CultDataObs{{< /staticref >}} or check out our {{< staticref "https://zenodo.org/communities/ccsi/" "newtab" >}}{{< icon name="database" pack="fas" >}}open data{{< /staticref >}} and {{< staticref "https://github.com/dataobservatory-eu/" "newtab" >}} {{< icon name="code" pack="fas" >}} open repositories, code, tutorials{{< /staticref >}} {{% /callout %}}
+
+
 We want to help independent artists to find their next audience, and fans to find their next favorite record or a truly fulfilling live music experience. Gabija had a conversation with [The Kurws]((https://dataandlyrics.com/post/2022-10-26_the_kurws/) ) in our `Listen Local Interviews` series.  She asked the band about where they are coming from, where they want to go?  Where they are local? And what they have to offer to the people who will join us on 31 October 2022 in Utrecht?
 
 ## Check out our projects
@@ -44,5 +48,4 @@ We want to help independent artists to find their next audience, and fans to fin
 - [x] Don't forget to vote for Reprex in the [Hague Innovators Award](https://reprex.nl/post/2022-09-13-the-hague-innovators-award/) competition 2022. The audience voting starts on 1 November 2022. 
 - [x] {{< icon name="download" pack="fas" >}} Download our {{< staticref "documents/2022_Reprex_Big_Data_for_All_submission.pdf" "newtab" >}}submission for the competition.{{< /staticref >}}
 - [x] Get in [touch](https://reprex.nl/#contact)!
-
 

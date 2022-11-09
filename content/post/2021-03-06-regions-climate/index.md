@@ -6,26 +6,6 @@ subtitle: Harmonizing sub-national geographical information
 # Summary for listings and search engines
 summary: In the previous example we created a longitudional dataset that contains data on the attitudes European people in various countries, provinces and regions thought climate change was a serious world problem back in 2013, 2015, 2017 and 2019. We will now fix the geographical information for mapping.
 
-links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/CultDataObs/
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/company/80644612/
-- icon: fa-solid fa-code
-  icon_pack: fas
-  name: Code & Tutorials
-  link: https://retroharmonize.dataobservatory.eu/
-- icon: github
-  icon_pack: fab
-  name: Contributions, Feedback & Bug Reports
-  link: https://github.com/rOpenGov/retroharmonize/
-- icon: sun
-  icon_pack: fas
-  name: CCSI Open Data
-  link: https://zenodo.org/communities/ccsi/
  
 # Link this post with a project
 projects: []
@@ -69,6 +49,10 @@ categories:
     } else {
       data_raw_dir <- file.path("..", "..", "data-raw")
       }
+
+
+{{% callout note %}}
+Engage with us on {{< staticref "https://www.linkedin.com/company/80644612/" "newtab" >}}{{< icon name="linkedin" pack="fab" >}}LinkedIn{{< /staticref >}} {{< staticref "https://twitter.com/CultDataObs/" "newtab" >}}{{< icon name="twitter" pack="fab" >}}@CultDataObs{{< /staticref >}} or check out our {{< staticref "https://zenodo.org/communities/ccsi/" "newtab" >}}{{< icon name="database" pack="fas" >}}open data{{< /staticref >}} and {{< staticref "https://github.com/dataobservatory-eu/" "newtab" >}} {{< icon name="code" pack="fas" >}} open repositories, code, tutorials{{< /staticref >}}{{% /callout %}}
 
 ## Going beyond the national level
 

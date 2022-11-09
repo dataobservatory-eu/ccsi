@@ -11,23 +11,6 @@ tags: ["R", "Metadata", "statistics", "SDMX"]
 
 summary: "A new building block of our observatories went through code peer review and was released yesterday. The statcodelists R package aim to promote the  reuse and exchange of statistical information and related metadata with making the internationally standardized SDMX code lists available for the R user."
 
-links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/CultDataObs/
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/company/80644612/
-- icon: fa-solid fa-code
-  icon_pack: fas
-  name: Code & Tutorials
-  link: https://statcodelists.dataobservatory.eu/
-- icon: github
-  icon_pack: fab
-  name: Contributions, Feedback & Bug Reports
-  link: https://github.com/antaldaniel/statcodelists/
-
 # Featured image
 image:
   # Caption (optional)
@@ -85,3 +68,21 @@ The creator of this package is not affiliated with SDMX, and this package was ha
 
 Please note that the `statcodelists` project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
 
+_Engage with us on {{< staticref "https://www.linkedin.com/company/80644612/" "newtab" >}}{{< icon name="linkedin" pack="fab" >}}LinkedIn{{< /staticref >}} {{< staticref "https://twitter.com/CultDataObs/" "newtab" >}}{{< icon name="twitter" pack="fab" >}}@CultDataObs{{< /staticref >}} or check out our {{< staticref "https://zenodo.org/communities/ccsi/" "newtab" >}}{{< icon name="database" pack="fas" >}}open data{{< /staticref >}} and {{< staticref "https://github.com/dataobservatory-eu/" "newtab" >}} {{< icon name="code" pack="fas" >}} open repositories, code, tutorials{{< /staticref >}}!_
+
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/CultDataObs/
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/company/80644612/
+- icon: fa-solid fa-code
+  icon_pack: fas
+  name: Code & Tutorials
+  link: https://statcodelists.dataobservatory.eu/
+- icon: github
+  icon_pack: fab
+  name: Contributions, Feedback & Bug Reports
+  link: https://github.com/antaldaniel/statcodelists/

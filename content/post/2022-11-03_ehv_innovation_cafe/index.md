@@ -50,24 +50,11 @@ projects:
  - Listen Local
  - OpenMusE
 
-links:
-- icon: twitter
-  icon_pack: fab
-  name: "@DigitalMusicObs"
-  url: https://twitter.com/DigitalMusicObs
-- icon: twitter
-  icon_pack: fab
-  name: "@CultDataObs"
-  url: https://twitter.com/CultDataObs
-- icon: linkedin
-  icon_pack: fab
-  name: Reprex
-  url: https://www.linkedin.com/company/68855596/
-- icon: youtube
-  icon_pack: fab
-  name: Recorded Livestream
-  url: https://youtu.be/kM54gAAbHY0?t=05m22s
 ---
+{{% callout note %}}
+Engage with us on {{< staticref "https://www.linkedin.com/company/80644612/" "newtab" >}}{{< icon name="linkedin" pack="fab" >}}LinkedIn{{< /staticref >}} {{< staticref "https://twitter.com/CultDataObs/" "newtab" >}}{{< icon name="twitter" pack="fab" >}}@CultDataObs{{< /staticref >}} or check out our {{< staticref "https://zenodo.org/communities/ccsi/" "newtab" >}}{{< icon name="database" pack="fas" >}}open data{{< /staticref >}} and {{< staticref "https://github.com/dataobservatory-eu/" "newtab" >}} {{< icon name="code" pack="fas" >}} open repositories, code, tutorials{{< /staticref >}}{{% /callout %}}
+{{< toc >}}
+
 
 Reprex's co-founder, [Daniel Antal](/authors/daniel_antal) talked in the [Eindhoven Innovation Café](https://www.ehvinnovationcafe.org/past-events/) about these issues. You can watch the recorded version of the the livestream that starts at 5 minutes and 22 seconds:
 

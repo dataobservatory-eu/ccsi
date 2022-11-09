@@ -26,6 +26,10 @@ image:
 ---
 <td style="text-align: center;">{{< figure src="/img/blogposts_2021/difficulty_bills_levels.jpg" caption="In our  [Central & Eastern European Music Industry Report 2020](https://music.dataobservatory.eu/publication/ceereport_2020/) as a case-study on [evidence-based policymaking](https://music.dataobservatory.eu/post/2020-01-30-ceereport/) we compared how musicians and their audiences live in several countries." numbered="false" >}}</td>
 
+{{% callout note %}}
+Engage with us on {{< staticref "https://www.linkedin.com/company/80644612/" "newtab" >}}{{< icon name="linkedin" pack="fab" >}}LinkedIn{{< /staticref >}} {{< staticref "https://twitter.com/CultDataObs/" "newtab" >}}{{< icon name="twitter" pack="fab" >}}@CultDataObs{{< /staticref >}} or check out our {{< staticref "https://zenodo.org/communities/ccsi/" "newtab" >}}{{< icon name="database" pack="fas" >}}open data{{< /staticref >}} and {{< staticref "https://github.com/dataobservatory-eu/" "newtab" >}} {{< icon name="code" pack="fas" >}} open repositories, code, tutorials{{< /staticref >}}{{% /callout %}}
+
+
 Survey harmonization is a powerful research tool to increase the usability of questionnaire-based empirical research.  When the same questions are asked from similarly selected German and French people, music audiences and musicians, then we can make meaningful comparisons between the public opinions of the two countries, or the different perceptions of fans and makers of music.  And if we repeat this procedure time after time, we can see if opinion is shifting more in Germany or France, or the living conditions of musicians are catching up with the rest of the country population.
 
 - [x]   You can create better surveys with less cost:  you only need to ask the information, or change of information, that is not included in our harmonized datasets. Shorter, better questionnaires, smaller samples sizes, huge cost savings.
