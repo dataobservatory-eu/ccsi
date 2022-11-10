@@ -13,34 +13,74 @@ slides:
   highlight_style: dracula
 ---
 
-{{< slide background-image="contest-hague-award-2022.webp" >}}
+{{< slide background-image="01-reprex-europeana-vote.webp" background-position="center">}}
+
+<span style="font-size:75%">
+</br></br></br></br></br></br>
+
+- We are competing for **The Hague Innovators' Award** as an impact startup with the support letter of Europeana, trying to find alternative funding for our shared project (next slide.)
+
+- 2-minute, popular [🖱️ explainer video](https://www.youtube.com/watch?v=bgp-n55TKCk) with ⚙️/ Subtitles/ 🇳🇱 🇬🇧 🇧🇦 🇨🇿 🇭🇺 🇩🇪 🇱🇹 🇫🇷 🇸🇰 🇪🇸 🇹🇷 🇵🇱 🇸🇪 + Catalan. (🙏🏻 share it).
+
+- Please [🙏🏿 vote for Reprex by clicking  here](https://reprex.nl/post/2022-10-29_reprex-talk-to-all/), and if you like us, share aslo the appeal from [🖱️ here](https://reprex.nl/post/2022-11-07_vote_reprex/) on Twitter or LinkedIn.
+
+</span>
 
 ---
 
+{{< slide background-image="02-reprex-europeana-ccsi.webp" background-position="top">}}
+</br></br></br>
 
-# Data Observatory 3.1
+
+- Next `>`️ or `Space`|  Previous  `<`
+- Start `Home` | Finish `End`
+- Overview `Esc` | Fullscreen `F`
+- Zoom `Alt + Click`
 
 ---
 
-{{< slide background-image="dataobservatory-mission-statement.png" >}}
+{{< slide background-image="02-reprex-europeana-ccsi.webp" background-position="top">}}
+</br></br>
+<span style="font-size:75%">
+
+- The [🖱️ CCSI Data Observatory](https://ccsi.dataobservatory.eu/) already has some data assets on Zenodo, and we can upgrade its API (both as Rest API with datacube and with a simple RDF serialization)
+- We are creating high quality, SDMX compatible, linkable, open science data about cultural heritage objects and other cultural heritage policy data. We would like to connect on knowledge graphs to actual content.
+- Revisit some modest deliverables of [🖱️ RECREO](https://ccsi.dataobservatory.eu/project/recreo/) and seek new funding.
+
+</span>
 
 ---
-## Controls
 
-- Next: `Right Arrow` or `Space`
-- Previous: `Left Arrow`
-- Start: `Home`
-- Finish: `End`
-- Overview: `Esc`
-- Speaker notes: `S`
-- Fullscreen: `F`
-- Zoom: `Alt + Click`
-- [PDF Export](https://github.com/hakimel/reveal.js#pdf-export): `E`
+{{< slide background-image="02-reprex-europeana-ccsi.webp" background-position="top" >}}
+</br></br><br>
+<span style="font-size:70%">
 
-----
+- The [🖱️ CfR HORIZON-CL2-2023-HERITAGE-01-03: Re-visiting the digitisation of cultural heritage: What, how and why?](https://ccsi.dataobservatory.eu/project/horizon/). Our appeal is to avoid duplication of cultural heritage and cultural industries digital infrastructure, and join forces with rights management, and commercial knowledge graphs to make heritage more reusable and valued.
+- [🖱️ CfR HORIZON-CL2-2023-HERITAGE-01-02: Cultural and creative industries for a sustainable climate transition](https://ccsi.dataobservatory.eu/project/horizon/). We have our open source software and app for environmental impact analysis and value chain analysis of the music industry that can be applied to the entire cultural sector.
+
+</span>
+
+---
+
+{{< slide background-image="03-reprex-europeana-partnership.webp" background-position="center">}}
+</br></br></br>
+<span style="font-size:70%">
+{{% fragment %}} [Listen Local Feasibility Sutdy](https://music.dataobservatory.eu/publication/listen_local_2020/) {{% /fragment %}} {{% fragment %}} | [Listen Local Judaica Demo](https://judaica.listen-local.net/) {{% /fragment %}}
+</span>
+
+---
+
 ## What are data observatories?
 
 - There are more than 60 functional, and about 20 already discontinued data observatories, i.e. long-term, usually triangular (business, academic, policy) data collection institutions recognized by the EU, OECD or UNESCO, including the [European Observatory on Infringements of Intellectual Property Rights](https://single-market-economy.ec.europa.eu/industry/strategy/intellectual-property/enforcement-intellectual-property-rights/european-observatory-infringements-intellectual-property-rights_en#:~:text=The%20European%20Observatory%20on%20Infringements,countries%2C%20businesses%20and%20civil%20society.) of the EU or the [European Audiovisual Observatory](https://www.obs.coe.int/en/web/observatoire) of the Council of Europe.
+
+---
+
+{{< slide background-image="ccsi-data-observatory.webp" >}}
+
+---
+
+{{< slide background-image="04-reprex-europeana-dmo.webp" background-position="center">}}
 
 ---
 
@@ -51,25 +91,20 @@ slides:
 
 ---
 
-{{< slide background-image="contest-hague-award-2022.webp" >}}
+{{< slide background-image="05-reprex-europeana-observatories.webp" >}}
+
+---
+
+{{< slide background-image="06-reprex-europeana-impactcity.webp" >}}
 
 ---
 
 ## Strategic objectives
 
 - Develop our data observatories as [Open Scholarly Infrastructure](https://openscholarlyinfrastructure.org/posse/)
-- Place our [Digital Music Observtory](https://music.dataobservatory.eu/), [Cultural and Creative Data Observatory](https://ccsi.dataobservatory.eu/), and [Green Deal Data Observaotry](https://greendeal.dataobservatory.eu/) on knowledge graphs of Europeana, Wikidata, and other open knowledge sytems
+- Place our [Digital Music Observtory](https://music.dataobservatory.eu/), [Cultural and Creative Data Observatory](https://ccsi.dataobservatory.eu/), and [Green Deal Data Observaotry](https://greendeal.dataobservatory.eu/) on knowledge graphs of Europeana, Wikidata, and other open knowledge system
 - Harmonize research artefacts with open repositories such as Zenodo and Figshare.
-- Achieve EU/UNESCO/OECD recognition for our self-governing, triangular, science-policy-busines triangular data ecosystems as *data observatories*
-
----
-
-
-## Digital Music Observatory
-
-- `Listen Local` in Horizon Europe OpenMuse WP Diversity, Creative Europe MusicAIRE: connected and curated data on 10,000s of music works
-- Our aim is to describe the entire, currently legally available music repertoire of Slovakia and Lithuania at first, and a large part of Ukraine.
-- Connected with name authorities, web services.
+- Achieve EU/UNESCO/OECD recognition for our self-governing, triangular, science-policy-bushiness triangular data ecosystems as *data observatories*
 
 ---
 
@@ -79,79 +114,46 @@ slides:
 
 ## Possible Collaboration
 
+<span style="font-size:75%">
+
 - Connect national collective management organization, national library, and various services (Spotify, YouTube) to make the national repertoire more visible
+
 - Create use statistics for cultural diversity policies and monitoring local content regulations
+
 - Provide best practice example and open source tools for replication
 
----
+- Support research automation 
 
-## Creative and Cultural Sectors Industries Data Observatory
-
----
-
-{{< slide background-image="ccsi-data-observatory.webp" >}}
+</span>
 
 ---
 
-## Possible Collaboration
+## Web 3.0 & FAIR
 
-- The [CCSI Data Observatory](https://ccsi.dataobservatory.eu/) already has some data assets on Zenodo, and we can upgrade its API (both as Rest API with datacube and with a simple RDF serialization)
-- Create use statistics for cultural heritage objects and other cultural heritage policy data
-- Revisit some modest deliverables of RECREO and seek new funding.
+<span style="font-size:75%">
 
----
+-  FAIR metadata: Dublin Core & DataCite referential metadata
 
-## Green Deal Data Observatory
+-  Integration to FigShare and Zenodo for automated releases and publications
 
----
+- Supported with optional, open source APIs to retrieve the data
 
-{{< slide background-image="green-deal-europeana-slide.webp" >}}
+- Supported with RDF serialization
+</span>
 
----
-
-## Possible Collaboration
-
-- The [Green Deal Data Observatory](https://greendeal.dataobservatory.eu/) is currently developed to provide free or very accessible environmental, social and governance reporting tools to the cultural sector.
-- It could also be used to provide ecological context to cultural heritage objects (CHO) for greater awareness.
-
----
-# Technical Features
-
-[Reprex](https://reprex.nl/) | [Documentation](https://introduction.dataobservatory.eu/)
-
----
-
-## FAIR
-
-- [x] FAIR metadata: Dublin Core & DataCite referential metadata
-- [x] Integration to FigShare and Zenodo for automated releases and publications
-
----
-
-## Web 3.0
-
-<small>&nbsp; 
--	[x] supported with optional, open source APIs to retrieve the data
--	[x] supported with RDF serialization
-
-&nbsp; </small>
 
 ---
 
 ## Dissemination Support
 
--	[x] support automated publishing and releasing of data, visualizations, newsletters, and long-form documentation in auto-refreshing websites, blogposts, or articles, or even books.
--	[x] develop an ecosystem of open source software that helps the professional collection, processing, documentation of data conforming the Data Governance Act, and supporting data sharing and data altruism.
+<span style="font-size:75%">
 
----
+-  Support automated publishing and releasing of data, visualizations, newsletters, and long-form documentation in auto-refreshing websites, blogposts, or articles, or even books.
 
-# Research Automation
+- 	Develop an ecosystem of open source software that helps the professional collection, processing, documentation of data conforming the Data Governance Act, and supporting data sharing and data altruism.
 
----
+</span>
 
-## Research automation
-
-- [x] support research automation 
 
 ---
 
@@ -159,4 +161,4 @@ slides:
 
 [Email](https://reprex.nl/#contact)
 
-LinkedIn: [Daniel Antal](https://www.linkedin.com/in/antaldaniel/) - [Digital Music Observatory](https://www.linkedin.com/company/79286750)
+LinkedIn: [Daniel Antal](https://www.linkedin.com/in/antaldaniel/) - [Digital Music Observatory](https://www.linkedin.com/company/79286750) - [Cultural Creative Sectors Industries](https://www.linkedin.com/company/80644612/)
