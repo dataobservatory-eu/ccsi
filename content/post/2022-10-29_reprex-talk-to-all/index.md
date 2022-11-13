@@ -10,6 +10,33 @@ tags:  ["Reprex", "The Hague", "Netherlands", "The Hague Innovators Challenge 20
 
 summary:  "We are finalists in The Hague Innovation Awards with a product offering and a message that big data and AI should work for all: ethnic minorities, small nations, small languages, womxn. Please vote for us."
 
+links:
+- icon: twitter
+  icon_pack: fab
+  name: "@DigitalMusicObs"
+  url: https://twitter.com/DigitalMusicObs
+- icon: twitter
+  icon_pack: fab
+  name: "@CultDataObs"
+  url: https://twitter.com/CultDataObs
+- icon: linkedin
+  icon_pack: fab
+  name: Reprex
+  url: https://www.linkedin.com/company/68855596/
+- icon: linkedin
+  icon_pack: fab
+  name: CCSI Observatory
+  url: https://www.linkedin.com/company/80644612/
+- icon: youtube
+  icon_pack: fab
+  name: 2-minute introduction
+  url: https://www.youtube.com/watch?v=bgp-n55TKCk
+- icon: person-booth
+  icon_pack: fas
+  name: Vote
+  url: ../post/2022-10-29_reprex-talk-to-all/
+
+
 # Featured image
 image: 
   caption:  "Cast your vote in the competition"
