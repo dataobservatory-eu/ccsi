@@ -2,6 +2,8 @@
 title: "Reprex: Big Data For All"
 subtitle: Vote Reprex in The Hague Innovation Award Finals
 
+# CCSI version
+
 # Summary for listings and search engines
 summary: "Reprex is the Hague-based impact startup developing decentralized, modern, web 3.0-compatible data observatories. Our mission is to fulfill parts of the SDG 16 and 17 goals: based on the open collaboration method of open-source software development and open knowledge management, we would like to enable impact makers to contribute to other SDG goals by making AI and big data work for them."
  
@@ -20,7 +22,7 @@ featured: false
 
 # Featured image
 image:
-  caption: 'BeeSage is a deep tech startup building a modular beehive monitoring system to benefit the Earth through data-driven pollination.'
+  caption: ''
   focal_point: "bottom"
   placement: 2
   preview_only: false

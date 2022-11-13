@@ -1,7 +1,7 @@
 ---
 title: Parntership Proposal for Europeana & Network
 summary: Vote for Reprex in The Hague Innovators' Award.
-authors: [daniel_antal]
+authors: ["daniel_antal", "admin"]
 tags: [Digital Music Observatory, Hague Innovation Award 2022]
 categories: []
 date: '2022-08-17T12:00:00Z'
@@ -30,8 +30,7 @@ slides:
 
 {{< slide background-image="02-reprex-europeana-ccsi.webp" background-position="top">}}
 </br></br></br>
-
-
+### Open Call for Collaboration on Cultural Heritage Data
 - Next `>`️ or `Space`|  Previous  `<`
 - Start `Home` | Finish `End`
 - Overview `Esc` | Fullscreen `F`
