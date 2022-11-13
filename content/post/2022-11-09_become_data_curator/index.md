@@ -34,6 +34,20 @@ tags:
   - Cultural heritage
   - Metadata
   - Cultural policy
+  
+links:
+- icon: twitter
+  icon_pack: fab
+  name: "@CultDataObs"
+  url: https://twitter.com/CultDataObs
+- icon: linkedin
+  icon_pack: fab
+  name: CCSI Observatory
+  url: https://www.linkedin.com/company/80644612/
+- icon: youtube
+  icon_pack: fab
+  name: 2-minute introduction
+  url: https://www.youtube.com/watch?v=bgp-n55TKCk
 
 ---
 

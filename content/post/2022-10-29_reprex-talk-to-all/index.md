@@ -38,6 +38,8 @@ Engage with us on {{< staticref "https://www.linkedin.com/company/80644612/" "ne
 
 1. Please **share our video message** on [YouTube](https://www.youtube.com/watch?v=bgp-n55TKCk) among your colleagues and friends.
 
+{{<youtube bgp-n55TKCk>}}
+
 <td style="text-align: center;">{{< figure src="img/blogposts_2022/Reprex_video_use_captions.png" caption="By pressing the ⚙️ and choosing `subtitles` you can choose your language. If you are there, please leave a 👍, too :)" numbered="false" >}}</td>
 
 The message is the message! We are an ethical data and AI company, and one of our topics is detecting if algorithms are biased towards the English language speakers. We want to teach the computer to understand small languages, and of course, everyone, who is under-represented in data: womxn, former colonial nations. 

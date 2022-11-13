@@ -27,6 +27,24 @@ summary: "There are numerous advantages of switching from a national level of th
 
 projects: ""
 
+links:
+- icon: twitter
+  icon_pack: fab
+  name: "@CultDataObs"
+  url: https://twitter.com/CultDataObs
+- icon: linkedin
+  icon_pack: fab
+  name: CCSI Observatory
+  url: https://www.linkedin.com/company/80644612/
+- icon: youtube
+  icon_pack: fab
+  name: 2-minute introduction
+  url: https://www.youtube.com/watch?v=bgp-n55TKCk"
+- icon: code
+  icon_pack: fas
+  name: "regions: code and tutorials"
+  url: https://regions.dataobservatory.eu/
+
 # Featured image
 image:
   caption: "Try [regions](https://regions.dataobservatory.eu/)"

@@ -2,6 +2,8 @@
 title: "Big Data for All: Building Collaborative Data Observatories" 
 subtitle: From the music ecosytem to newer use cases
 
+# CCSI version
+
 event: Eindhoven Innovation Café Breakout Talks
 event_url: https://www.ehvinnovationcafe.org/program/
 
@@ -44,13 +46,36 @@ url_video: ''
 
 slides:
 
+ 
+links:
+- icon: twitter
+  icon_pack: fab
+  name: "@DigitalMusicObs"
+  url: https://twitter.com/DigitalMusicObs
+- icon: twitter
+  icon_pack: fab
+  name: "@CultDataObs"
+  url: https://twitter.com/CultDataObs
+- icon: linkedin
+  icon_pack: fab
+  name: Reprex
+  url: https://www.linkedin.com/company/68855596/
+- icon: linkedin
+  icon_pack: fab
+  name: CCSI Observatory
+  url: https://www.linkedin.com/company/80644612/
+- icon: youtube
+  icon_pack: fab
+  name: Recorded Livestream
+  url: https://youtu.be/kM54gAAbHY0?t=05m22s
+
 # Projects (optional).
 #   Otherwise, set `projects = []`.
 projects:
- - Listen Local
  - OpenMusE
 
 ---
+
 {{% callout note %}}
 Engage with us on {{< staticref "https://www.linkedin.com/company/80644612/" "newtab" >}}{{< icon name="linkedin" pack="fab" >}}LinkedIn{{< /staticref >}} {{< staticref "https://twitter.com/CultDataObs/" "newtab" >}}{{< icon name="twitter" pack="fab" >}}@CultDataObs{{< /staticref >}} or check out our {{< staticref "https://zenodo.org/communities/ccsi/" "newtab" >}}{{< icon name="database" pack="fas" >}}open data{{< /staticref >}} and {{< staticref "https://github.com/dataobservatory-eu/" "newtab" >}} {{< icon name="code" pack="fas" >}} open repositories, code, tutorials{{< /staticref >}}{{% /callout %}}
 {{< toc >}}

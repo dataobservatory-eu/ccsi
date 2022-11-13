@@ -11,17 +11,27 @@ tags: ["CCSI Data Observatory", "Indicator design", "Open data", "Open Science",
 
 summary: "We want to create open indicators that business users, music organizations, evidence-based policy makers can trust as much as data from Eurostat, U.S. federal agencies, or premium market research companies. Using similarly rigorous statistical standards, open data, open science, and the innovations of data science we want to fill the data gaps of the European music industry with timely, easy-to-import, visualized, documented, high-quality data."
 
+links:
+- icon: twitter
+  icon_pack: fab
+  name: "@CultDataObs"
+  url: https://twitter.com/CultDataObs
+- icon: linkedin
+  icon_pack: fab
+  name: CCSI Observatory
+  url: https://www.linkedin.com/company/80644612/
+- icon: youtube
+  icon_pack: fab
+  name: 2-minute introduction
+  url: https://www.youtube.com/watch?v=bgp-n55TKCk
+
 # Featured image
 image:
   # Caption (optional)
   caption: ""
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point: "Center"
-
-  # Show image only in page previews?
   preview_only: true
+  
 ---
 <td style="text-align: center;">{{< figure src="/img/blogposts_2022/Eurostat_using_indicators_way_communicating_captioned.jpg" caption="We follow the Eurostat indicator design guidelines to make sure that our users – cultural ministries, representative organizations of music, large music organization and companies, researcher get the information that they need in usable and precise indicators." numbered="false" >}}</td>
 

@@ -14,15 +14,23 @@ summary: "rOpenGov, Reprex, and other open collaboration partners teamed up to b
 links:
 - icon: twitter
   icon_pack: fab
-  name: Follow
-  url: https://twitter.com/CultDataObs/
+  name: "@CultDataObs"
+  url: https://twitter.com/CultDataObs
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/company/80644612/
-- icon: fa-solid fa-code
+  name: CCSI Observatory
+  url: https://www.linkedin.com/company/80644612/
+- icon: youtube
+  icon_pack: fab
+  name: 2-minute introduction
+  url: https://www.youtube.com/watch?v=bgp-n55TKCk"
+- icon: code
   icon_pack: fas
-  link: https://iotables.dataobservatory.eu/
+  name: "iotables: code and tutorials"
+  url: https://iotables.dataobservatory.eu/
+
 projects: ""
+
 
 # Featured image
 image:

@@ -13,13 +13,28 @@ summary: "If open data is the new gold, why even those who release fail to reuse
 
 projects: ""
 
+
+links:
+- icon: twitter
+  icon_pack: fab
+  name: "@CultDataObs"
+  url: https://twitter.com/CultDataObs
+- icon: linkedin
+  icon_pack: fab
+  name: CCSI Observatory
+  url: https://www.linkedin.com/company/80644612/
+- icon: youtube
+  icon_pack: fab
+  name: 2-minute introduction
+  url: https://www.youtube.com/watch?v=bgp-n55TKCk"
+- icon: code
+  icon_pack: fas
+  name: Code & Tutorials
+  url: ../#releases
+
 # Featured image
 image:
-  # Caption (optional)
   caption: "Gold Panning at Bonanza Creek, [Wikimedia](https://commons.wikimedia.org/wiki/File:Gold_panning_at_Bonanza_Creek.JPG)"
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point: "Center"
 
   # Show image only in page previews?

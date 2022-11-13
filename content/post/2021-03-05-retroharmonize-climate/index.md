@@ -16,8 +16,25 @@ draft: false
 # Show this page in the Featured widget?
 featured: false
 
+links:
+- icon: twitter
+  icon_pack: fab
+  name: "@CultDataObs"
+  url: https://twitter.com/CultDataObs
+- icon: linkedin
+  icon_pack: fab
+  name: CCSI Observatory
+  url: https://www.linkedin.com/company/80644612/
+- icon: youtube
+  icon_pack: fab
+  name: 2-minute introduction
+  url: https://www.youtube.com/watch?v=bgp-n55TKCk"
+- icon: code
+  icon_pack: fas
+  name: "retroharmonize: code and tutorials"
+  url: https://retroharmonize.dataobservatory.eu/
+
 # Featured image
-# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
   caption: 'The first results before the harmonization of geographical coding.'
   focal_point: ""

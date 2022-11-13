@@ -11,18 +11,30 @@ tags: ["Books", "Reading", "Regional data", "Cultural & Creative Sectors and Ind
 
 summary: "The indicator is created from the Eurobarometer 79.2 survey’s [GESIS datafile](https://search.gesis.org/research_data/ZA5688) using regional subsamples."
 
-project: "horizon"
+project: ""
+
+links:
+- icon: twitter
+  icon_pack: fab
+  name: "@CultDataObs"
+  url: https://twitter.com/CultDataObs
+- icon: linkedin
+  icon_pack: fab
+  name: CCSI Observatory
+  url: https://www.linkedin.com/company/80644612/
+- icon: youtube
+  icon_pack: fab
+  name: 2-minute introduction
+  url: https://www.youtube.com/watch?v=bgp-n55TKCk"
+- icon: database
+  icon_pack: fas
+  name: Dataset
+  url: https://zenodo.org/record/5703222#.YZKp8GDMLIV
 
 # Featured image
 image:
-  # Caption (optional)
   caption: "Photo: [Filip Mishevski](https://unsplash.com/@filipthedesigner/)"
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point: "Center"
-
-  # Show image only in page previews?
   preview_only: false
 
 ---
