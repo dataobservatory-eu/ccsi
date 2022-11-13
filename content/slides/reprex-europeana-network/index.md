@@ -20,9 +20,9 @@ slides:
 
 - We are competing for **The Hague Innovators' Award** as an impact startup with the support letter of Europeana, trying to find alternative funding for our shared project (next slide.)
 
-- 2-minute, popular [🖱️ explainer video](https://www.youtube.com/watch?v=bgp-n55TKCk) with ⚙️/ Subtitles/ 🇳🇱 🇬🇧 🇧🇦 🇨🇿 🇭🇺 🇩🇪 🇱🇹 🇫🇷 🇸🇰 🇪🇸 🇹🇷 🇵🇱 🇸🇪 + Catalan. (🙏🏻 share it).
+- 2-minute, popular [🖱️ explainer video](https://www.youtube.com/watch?v=bgp-n55TKCk) with ⚙️/subtitles/ 🇳🇱 🇬🇧 🇧🇦 🇨🇿 🇭🇺 🇩🇪 🇱🇹 🇫🇷 🇸🇰 🇪🇸 🇹🇷 🇵🇱 🇸🇪 + Catalan. (🙏🏻 share it).
 
-- Please [🙏🏿 vote for Reprex by clicking  here](https://reprex.nl/post/2022-10-29_reprex-talk-to-all/), and if you like us, share aslo the appeal from [🖱️ here](https://reprex.nl/post/2022-11-07_vote_reprex/) on Twitter or LinkedIn.
+- Please [🙏🏿 vote for Reprex by clicking  here](https://reprex.nl/post/2022-10-29_reprex-talk-to-all/), and if you like us, share the appeal from [🖱️ here](https://reprex.nl/post/2022-11-07_vote_reprex/) on Twitter or LinkedIn, too.
 
 </span>
 
@@ -101,10 +101,10 @@ slides:
 
 ## Strategic objectives
 
-- Develop our data observatories as [Open Scholarly Infrastructure](https://openscholarlyinfrastructure.org/posse/)
-- Place our [Digital Music Observtory](https://music.dataobservatory.eu/), [Cultural and Creative Data Observatory](https://ccsi.dataobservatory.eu/), and [Green Deal Data Observaotry](https://greendeal.dataobservatory.eu/) on knowledge graphs of Europeana, Wikidata, and other open knowledge system
+- Develop our data observatories as [Open Scholarly Infrastructure](https://openscholarlyinfrastructure.org/posse/).
+- Place our [Digital Music Observatory](https://music.dataobservatory.eu/), [Cultural and Creative Data Observatory](https://ccsi.dataobservatory.eu/), and [Green Deal Data Observaotry](https://greendeal.dataobservatory.eu/) on knowledge graphs of Europeana, Wikidata, and other open knowledge systems.
 - Harmonize research artefacts with open repositories such as Zenodo and Figshare.
-- Achieve EU/UNESCO/OECD recognition for our self-governing, triangular, science-policy-bushiness triangular data ecosystems as *data observatories*
+- Achieve EU/UNESCO/OECD recognition for our self-governing, triangular, science-policy-bushiness triangular data ecosystems as *data observatories*.
 
 ---
 
@@ -132,9 +132,9 @@ slides:
 
 <span style="font-size:75%">
 
--  FAIR metadata: Dublin Core & DataCite referential metadata
+- FAIR metadata: Dublin Core & DataCite referential metadata
 
--  Integration to FigShare and Zenodo for automated releases and publications
+- Integration to FigShare and Zenodo for automated releases and publications
 
 - Supported with optional, open source APIs to retrieve the data
 

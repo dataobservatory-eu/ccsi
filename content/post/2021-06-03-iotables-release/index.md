@@ -31,7 +31,6 @@ links:
 
 projects: ""
 
-
 # Featured image
 image:
   # Caption (optional)
