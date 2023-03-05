@@ -2,7 +2,8 @@
 title: About Data Observatories
 summary: "Reprex’s data observatories are modern, 21st-century re-imagination of the observatory concept."
 date: "2023-03-04T00:00:00Z"
-lastmod: "2023-03-05T00:00:00Z"
+lastmod: "2023-03-05T11:00:00Z"
+authors: ["admin"]
 
 reading_time: false  # Show estimated reading time?
 share: false  # Show social sharing links?
@@ -15,7 +16,7 @@ header:
   image: ""
 ---
 
-<td style="text-align: center;">{{< figure src="/img/observatory_screenshots/observatory_collage_16x9_800.png" caption="More than 60 EU, UN, or OECD-recognized data/social science observatories exist worldwide." numbered="false" >}}</td>
+<td style="text-align: center;">{{< figure src="/screenshots/observatory/observatory_collage_2x1_800.png" caption="More than 60 EU, UN, or OECD-recognized data/social science observatories exist worldwide." numbered="false" >}}</td>
 
 **Reprex’s data observatories are modern, 21st-century re-imagination of the observatory concept.  In the 18-19th century, observatories were the centers of structured observation and data collection about the natural world.  Since the 20th century, the EU and UN organizations created or acknowledged about 80 observatories ranging from natural sciences to social sciences and data observatories.**
 
@@ -33,7 +34,6 @@ header:
 {{<youtube bgp-n55TKCk>}}
 
 ⚙️/ Subtitles/ 🇳🇱 🇬🇧 🇧🇦 🇨🇿 🇭🇺 🇩🇪 🇱🇹 🇫🇷 🇸🇰 🇪🇸 🇹🇷 + Catalan. 
-
 
 ## Mission statement
 

@@ -11,9 +11,13 @@ main:
     url: '#about'
     weight: 11
     parent: Home
-  - name: "In 1 minute"
-    url: '#slider'
+  - name: "About the data observatories"
+    url: ../about/observatories
     weight: 12
+    parent: Home
+  - name: "In 1 minute: slide introduction"
+    url: '#slider'
+    weight: 13
     parent: Home
   - name: News
     weight: 20
