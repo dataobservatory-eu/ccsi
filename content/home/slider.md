@@ -11,28 +11,80 @@ design:
   # Automatically transition through slides?
   loop: true
   # Duration of transition between slides (in ms)
-  interval: 20000
+  interval: 3000
 
 content:
   slides:
     - title: ""
-      content: '</br></br></br></br>'
+      content: '<br/><br/><br/><br/><br/>'
       align: left
       background:
         position: center
         color: '#555'
-        brightness: 1
-        media: slides/slider/Reprex_Linecheck_2022-centered-broader.webp
+        brightness: 0.9
+        media: /slides/slider/01-music_eviota_intro.webp
       link:
         icon: fa-solid fa-right-to-bracket
         icon_pack: fas
-        text: "See you in Milano"
-        url: ../talk/linecheck-milano-it/
-    - title: Try Our Software
-      content: </br></br></br></br></br></br></br></br>
+        text: "Test our tool (film version is coming soon!)"
+        url: ../project/musiceviota/
+    - title: ""
+      content: '<br/><br/><br/><br/><br/>'
       align: left
       background:
-        position: center
+        position: top
+        color: '#555'
+        brightness: 0.9
+        media: /slides/slider/data_observatory_lab.webp
+      link:
+        icon: fa-solid fa-right-to-bracket
+        icon_pack: fas
+        text: "We are looking for partners"
+        url: ../project/crea-innovlab-2023/
+    - title: ""
+      content: '<br/><br/><br/><br/><br/>'
+      align: left
+      background:
+        position: top
+        color: '#555'
+        brightness: 0.3
+        media: /slides/slider/black_reprex_r_packages.webp
+      link:
+        icon: fa-solid fa-right-to-bracket
+        icon_pack: fas
+        text: "New release: dataset"
+        url: ../post/2022-12-02-dataset-on-cran/
+    - title: ""
+      content: '</br></br></br><span style="color:#00348A">The Hague Innovators Challenge Finals 2022</span>'
+      align: right
+      background:
+        position: top
+        color: '#555'
+        brightness: 0.9
+        media: slides/slider/listen_local_open_collaboration_sdg_slide_white.webp
+      link:
+        icon: fa-solid fa-right-to-bracket
+        icon_pack: fas
+        text: "Read more & get involved"
+        url: ../post/2022-11-15-reprex-hague-innovators-award/
+    - title: ""
+      content: '</br></br></br></br></br></br></br>'
+      align: left
+      background:
+        position: top
+        color: '#555'
+        brightness: 0.9
+        media: slides/slider/Sustainable_development_goals_16_white.webp
+      link:
+        icon: fa-solid fa-right-to-bracket
+        icon_pack: fas
+        text: "Thank you for the votes!"
+        url: ../post/2022-11-15-reprex-hague-innovators-award/
+    - title: Try Our Software
+      content: </br></br></br></br></br>
+      align: left
+      background:
+        position: top
         color: '#555'
         brightness: 0.7
         media: slides/slider/black_reprex_r_packages.webp
@@ -54,19 +106,6 @@ content:
         icon_pack: fas
         text: Watch the livestream
         url: ../post/2022-11-03_ehv_innovation_cafe/
-    - title: Vote in The Hague Innovators Challenge!
-      content: '</br></br></br></br></br></br></br>'
-      align: left
-      background:
-        position: top
-        color: '#555'
-        brightness: 0.3
-        media: slides/slider/cast_your_vote.webp
-      link:
-        icon: fa-solid fa-right-to-bracket
-        icon_pack: fas
-        text: Scroll ↡ and vote REPREX :)
-        url: ../post/2022-10-29_reprex-talk-to-all/
     - title: "Open Data: Gold Without Rush"
       content: 'When you need data from the past, it is too late to start 
       collecting it. If you need satellite data, it is unlikely that you
@@ -84,19 +123,6 @@ content:
         icon_pack: fas
         text: "Blog: Why is it so hard to work with it?"
         url: ../post/2021-06-18-gold-without-rush/
-    - title: ""
-      content: ''
-      align: left
-      background:
-        position: center
-        color: '#555'
-        brightness: 0.3
-        media: img/slides/panning_open_data_automation_white.webp
-      link:
-        icon: fa-solid fa-right-to-bracket
-        icon_pack: fas
-        text: "Software solutions"
-        url: ../#releases
     - title: ""
       content: '</br></br>Our new, vertical observatories bring ESG and antitrust
       solutions from our domain-specific observatories. The competition observatory
