@@ -22,7 +22,7 @@ content:
         position: center
         color: '#555'
         brightness: 0.9
-        media: /slides/slider/01-music_eviota_intro.webp
+        media: /slides/slider/music_eviota_centered.webp
       link:
         icon: fa-solid fa-right-to-bracket
         icon_pack: fas

@@ -53,6 +53,12 @@ Our solution benefits the music MSMEs and CSOs in several ways:
 - [x] It provides them with a size adequate sustainability management and reporting tool that helps first the management of greenhouse gas emissions, and later sustainable water use, pollutions, biodiversity, and recycling in their entire value chain (for example, it flags environmental risks in the supply base of a festival including equipment rentals, transport, security firms, catering facilities, etc.) by connecting standard accounting documents of the MSME with SNA and EEA science based benchmarks.
 - [x] Our system will be extendible to management of social sustainability. Our previous research shows that particularly the live music industry that needs a large workforce, suffers from underuse of, and discrimination of female workers in various technical and even managerial roles. Our system will be able to flag risks of gender paygap and related issues in the entire value chain and of course, provide good benchmarks for internal activities.
 
+{{< spoiler text="Why Eviota?" >}}
+<td style="text-align: center;">{{< figure src="/img/eviota/eviota-bifasciata.png" caption="" numbered="false" >}}</td>
+{{< hl >}}We named Eviota after a small fish that lives symbiotically among the tentacles of the mushroom coral. It not only rhymes with our software, <a href="https://iotables.dataobservatory.eu/" target="_blank">iotables</a>, but it refers to the fragile ecosystem of coral reefs: miraculous and beautiful forms of life under threat from global warming. The first step of saving our planet is to objectively detect where your organization’s stakeholders – suppliers, buyers, workers, technology – leave an impact on the environment.{{< /hl >}}
+{{< /spoiler >}}
+
+
 Our review of the environmental, social and governance risk management (ESG sustainability management) suggests that complying with ESG standards is not only a pre-requisite to get cheaper loans (less important) and cheaper insurance (very important in live music), but also a requirement by corporate sponsors of events, and even a large part of the audience. While some music organizations already provide sustainability reporting, they are not standardized and are less factful as they are not connected to accounting information at every point. Our solution aims to give much credibility to both the sustainability
 reports and non-financial disclosures of the financial reports (which are not mandatory for MSMEs but increase their trustworthiness on an elective basis if they are included.)
 
