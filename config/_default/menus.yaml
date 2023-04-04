@@ -72,6 +72,18 @@ main:
     parent: Data
   - name: 📖 Open Science Repository
     url: 'https://zenodo.org/communities/ccsi/'
+    weight: 45
+    parent: Data
+  - name: 🎙️ Open Music Collections
+    url: https://www.opencollections.net/collections/music/
+    weight: 46
+    parent: Data
+  - name: 🎞️ Open Photography Collections
+    url: https://www.opencollections.net/collections/photography/
+    weight: 47
+    parent: Data
+  - name: 🖼️ Open Prints Collections
+    url: https://www.opencollections.net/collections/print/
     weight: 48
     parent: Data
   - name: 🖥️ API
