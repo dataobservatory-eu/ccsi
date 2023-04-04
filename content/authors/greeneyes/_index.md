@@ -19,7 +19,8 @@ organizations:
       url: https://www.greeneyesproduction.com/  
 
 # Short bio (displayed in user profile at end of posts)
-bio: GreenEyes is a sustainability consultancy, working across the Film, TV and Media Sector.
+
+bio: GreenEyes is a sustainability consultancy, working across the Film, TV and Media Sector. 
 
 topics:
 - Sustainability management
@@ -40,11 +41,6 @@ social:
 - icon: instagram
   icon_pack: fab
   link: https://www.instagram.com/greeneyesfilmprod/
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -55,4 +51,4 @@ user_groups:
 - institutional partners
 ---
 
-GreenEyes is a sustainability consultancy, working across the Film, TV and Media Sector. They look at a film production project’s lifecycle as a whole, from script stage, through pre-, production, post- to all the way to the final windows of festival, sales and distribution.
+[GreenEyes](https://www.greeneyesproduction.com/) is a sustainability consultancy, working across the Film, TV and Media Sector. They look at a film production project’s lifecycle as a whole, from script stage, through pre-, production, post- to all the way to the final windows of festival, sales and distribution.

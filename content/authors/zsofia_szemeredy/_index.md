@@ -1,30 +1,34 @@
 ---
 # Display name
 title: Zsófia Szemerédy
-name: Zsófia Szemerédy
 
 # Username (this should match the folder name)
 authors:
-- zsofia_szemeredy
+ - zsofia_szemeredy
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: 
-
-# Organizations/Affiliations
-organizations:
-- name: GreenEyes Production
-  url: 
-
-# Short bio (displayed in user profile at end of posts)
-bio: 
+role: Script development executive and audiovisula sustainability professional.
 
 topics:
 - Sustainability
 - Film production
 - Television production
+
+# Organizations/Affiliations
+organizations:
+  - name: GreenEyes Production
+    url: https://www.greeneyesproduction.com/
+
+# Short bio (displayed in user profile at end of posts)
+bio: ""
+
+topics:
+  - Sustainability
+  - Film production
+  - Television production
 
 
 education:
@@ -41,25 +45,22 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/suzan-sidal-a80052142/
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+  link: https://www.linkedin.com/in/zs%C3%B3fia-szemer%C3%A9dy-70659323/
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0009-0005-8431-1547
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
 
+# …
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-   - service development team
+- service development team
 ---
 
-Zsofia is ....
+Zsofia is a script development executive and sustainability professional.
+Over the past decade, she worked for a variety of mainstream and independent film companies. Throughout the decade, she gained hands-on knowledge and experience across multiple sectors including: public relations, festivals and markets, sales, distribution, exhibition, and script development. Following her attendance at the National Film and Television School, she discovered her true passion lay in combining script development and sustainability, and finding a balance between the two in both her work and personal life.
