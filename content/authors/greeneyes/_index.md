@@ -1,7 +1,7 @@
 ---
 # Display name
-title: Green Eyes
-name: Green Eyes
+title: GreenEyes
+name: GreenEyes
 
 # Username (this should match the folder name)
 authors:
@@ -15,7 +15,7 @@ role: Sustainability reporting in Film, TV & Media
 
 # Organizations/Affiliations
 organizations:
-    - name: Datagraver
+    - name: GreenEyes website
       url: https://www.greeneyesproduction.com/  
 
 # Short bio (displayed in user profile at end of posts)
