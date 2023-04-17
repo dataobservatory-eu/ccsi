@@ -17,8 +17,6 @@ tags: ["Data Observatory Labs", "Innovation", "Eviota", "Survey harmonization", 
 external_link: ""
 
 # Special chars . . . —
-# Slides (optional).
-#   Otherwise, set `slides: ""`.
 slides: ""
 
 authors: ["admin"]
@@ -71,7 +69,7 @@ The DataInnoLab Consortium aims to provide business development tools for the mu
 
 Our innovators bring into this project early stage products, prototypes, and open source software that can be further developed, packaged into services which are tested in multiple European markets, and eventually scaled for the entire EU internal market and beyond.
  
-In this project, European innovative startups and SMEs will work with the ESCP Business School, a transnational business school for higher education with urban campuses in Germany, France, Great Britain, Italy, Spain and Poland, and its prestigious Blue Factory, its transnational start-up incubator. Established in 1819, ESCP is the world's oldest business school and celebrated its 200th anniversary in 2019. ESCP Business School has particular expertise in three key academic areas, namely sustainability, entrepreneurship and digitalisation with a foundation of international management.
+In this project, European innovative startups and SMEs will work with the [ESCP Business School](/authors/escp), a transnational business school for higher education with urban campuses in Germany, France, Great Britain, Italy, Spain and Poland, and its prestigious Blue Factory, its transnational start-up incubator. Established in 1819, ESCP is the world's oldest business school and celebrated its 200th anniversary in 2019. ESCP Business School has particular expertise in three key academic areas, namely sustainability, entrepreneurship and digitalisation with a foundation of international management.
 
 {{< spoiler text="Our Proposal Data: Open Innovation Labs" >}}
 Project Acronym: `DataInnoLab`</br>
