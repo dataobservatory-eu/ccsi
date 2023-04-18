@@ -53,15 +53,3 @@ Documentary movies have a long-standing tradition in Hungary and in recent years
 During the 2019 Sarajevo Film Festival an unexpectedly large number of Hungarian documentary filmmakers gathered, who realized that there is a need for an organization that can unite and represent them. In January 2020 they decided to call on the fellow Hungarian documentary film professionals and invited them to brainstorm on the needs of the scene and together they have dreamt up many great goals to achieve. The association was created to be first of all a professional forum and advocacy group, which represents every party involved with the process of documentary filmmaking: directors, producers, DoPs, editors, sound engineers, festival organizers and film distributors. **The organization’s current roster consists of more than 140 members and thus has the largest active membership among Hungarian film associations.**
 
 **MADOKE was created to represent and promote Hungarian documentary films and filmmakers.** Besides initiating a dialogue between the creators and the decision- makers, and encouraging professional relationships and co-operation, another main aim is to popularize Hungarian documentaries among the domestic and the international audiences. **MADOKE also focuses on strengthening the professional ties between Hungarian and European artists and organizations,** which includes representing the Hungarian documentary scene at international festivals and markets as well as initiating further collaborations with educational projects such as workshops, universities, high schools and film clubs.
-
-## Board Members:
-
-Julianna Ugrin, producer, director – President
-
-László Józsa, producer – Board member
-
-Asia Dér, director – Board member
-
-Enikő Gyureskó, festival coordinator – Board member
-
-Péter Becz, director – Board member
