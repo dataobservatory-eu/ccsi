@@ -48,9 +48,13 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/zs%C3%B3fia-szemer%C3%A9dy-70659323/
+- icon: imdb
+  icon_pack: fab
+  link: https://www.imdb.com/name/nm8783212/?ref_=ttfc_fc_cr1485
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0009-0005-8431-1547
+
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""

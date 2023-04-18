@@ -46,6 +46,9 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: 
+- icon: imdb
+  icon_pack: fab
+  link: https://www.imdb.com/name/nm14751389/?ref_=vp_close
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/

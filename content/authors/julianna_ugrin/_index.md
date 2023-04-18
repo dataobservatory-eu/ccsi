@@ -18,10 +18,8 @@ role: Data curator
 organizations:
   - name: Éclipse Film
     url: "https://eclipsefilm.hu/"
-
-# Uncomment and add as many as you like
-#  - name: New affiliation
-#    url: ""
+  - name: HDA - MADOKE
+    url: "https://madoke.hu/home/"
 
 # Short bio (displayed in user profile at end of posts, please keep this to 1-2 lines)
 bio: Julianna Ugrin is an EFA nominated film producer from Hungary. 
@@ -29,16 +27,16 @@ bio: Julianna Ugrin is an EFA nominated film producer from Hungary.
 # Please place your credentials below by changing this template.
 # Uncomment optional badges / links
 social:
-- icon: envelope
-  icon_pack: fas
-  link: "#contact" 
-# For a direct email link, use "mailto:test@example.org", but we usually use the contact form and not reveal your email to the open internet.
-- icon: orcid
-  icon_pack: ai
-  link: https://orcid.org/0009-0003-3739-244X
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/julianna-ugrin-90a5282b/
+- icon: imdb
+  icon_pack: fab
+  link: https://www.imdb.com/name/nm3782729/?ref_=nv_sr_srsg_0_tt_0_nm_2_q_ugrin%2520julianna
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0009-0003-3739-244X
+
   
 # Organizational groups that you belong to (for People widget)
 #   Change - join us to - data curators
